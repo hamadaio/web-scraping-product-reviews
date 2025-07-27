@@ -1,6 +1,6 @@
 [
   {
-    "id": "app_store_1753644326347_9qan8e7mb",
+    "id": "app_store_1753650789463_p2wn8pir7",
     "author": "eggfatlatte",
     "rating": 3,
     "review": "There is much to be desired for the app but the last update made the app unusable. After each session the mendi icon shows up and gets stuck there. Only way to get pass this screen is to close the app and restart it. I see other people are experiencing the same behavior. Seems like this got passed QA somehow. Not terribly impressed with the app. Please fix this ASAP or I’ll have to move on to alternatives.",
@@ -8,10 +8,11 @@
     "date": "2025-07-21T17:54:00-07:00",
     "helpful": 0,
     "version": "3.1.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_unq6nu680",
+    "id": "app_store_1753650789463_47fbngui7",
     "author": "Sherwani2020",
     "rating": 4,
     "review": "This might be a mistake from my end as I am new to mendi and still don’t know how exactly it works, but every time when my session ends the mandi logo stays on the screen (more than a minute based on my experience) and in order to go back to the main page, I have to close the app and re-open.\nPlease fix this as it might affect it’s functionality.",
@@ -19,10 +20,35 @@
     "date": "2025-07-18T11:25:43-07:00",
     "helpful": 0,
     "version": "3.1.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_8n7d81lzk",
+    "id": "app_store_1753650789463_pqup0xt8q",
+    "author": "Johann Bieler",
+    "rating": 3,
+    "review": "Frequently crashes right before the end of the session. Please fix this urgently",
+    "title": "Nice app but many crashes",
+    "date": "2025-07-17T06:03:41-07:00",
+    "helpful": 0,
+    "version": "3.1.9",
+    "platform": "app_store",
+    "country": "at"
+  },
+  {
+    "id": "app_store_1753650789463_g2e37xo3q",
+    "author": "Ștefan Steve",
+    "rating": 5,
+    "review": "I’d be really happy if I could buy new audio, background visuals, skins, and other types of content — and I’d also love to have a new kind of attention game.    \nThe update is great . Thank you !  : )",
+    "title": "Suggestion : )",
+    "date": "2025-07-13T05:07:44-07:00",
+    "helpful": 0,
+    "version": "3.1.9",
+    "platform": "app_store",
+    "country": "nl"
+  },
+  {
+    "id": "app_store_1753650789463_ntqrh0bfz",
     "author": "Dr.d man",
     "rating": 4,
     "review": "After several months I have noticed that I am much less reactive.  I wish there were more tools to understand/interpret scores.  Maybe a graph.",
@@ -30,10 +56,11 @@
     "date": "2025-07-09T17:36:49-07:00",
     "helpful": 0,
     "version": "3.1.6",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_s7svnwymj",
+    "id": "app_store_1753650789463_mnfw1ry3f",
     "author": "Wild Moonflower",
     "rating": 1,
     "review": "I was a very dedicated user- just shy of 600 days in a row and the app changed a bunch of features, the device stopped working, and many glitches. While the history of my sessions saved, the daily number did not so 600 sessions became zero overnight.",
@@ -41,10 +68,47 @@
     "date": "2025-07-07T16:27:07-07:00",
     "helpful": 0,
     "version": "3.1.6",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_t5a3epr46",
+    "id": "app_store_1753650789463_4tax5lhps",
+    "author": "Huggis",
+    "rating": 3,
+    "review": "Whilst I like using my Mendi I would much prefer to be sat at a table using an iPad rather than having to hold my iPhone. Hopefully this can happen soon.",
+    "title": "Needs iPad Support",
+    "date": "2025-07-07T08:55:32-07:00",
+    "helpful": 0,
+    "version": "3.1.6",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789463_vfxe8r9f4",
+    "author": "MateuszXYZ",
+    "rating": 1,
+    "review": "The app with an update several weeks ago introduced few bugs. For instance the session summary screen does not load - hangs on the spinner. Please fix otherwise good app.",
+    "title": "Buggy for weeks now",
+    "date": "2025-07-03T23:15:59-07:00",
+    "helpful": 0,
+    "version": "3.1.6",
+    "platform": "app_store",
+    "country": "pl"
+  },
+  {
+    "id": "app_store_1753650789463_si82i58cb",
+    "author": "Mrs Spanner",
+    "rating": 3,
+    "review": "Since the latest update the app freezes at the end of training, which makes me have to force close it. This means my session doesn’t get registered, which is annoying.  I keep having to delete and reinstall the app.  Also, could we have the “how are you feeling today?” emotions in alphabetical order? Thanks.",
+    "title": "Great when it works",
+    "date": "2025-06-30T03:32:53-07:00",
+    "helpful": 0,
+    "version": "3.1.6",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789463_gl6izqcg5",
     "author": "Ghhjkfcxdg",
     "rating": 4,
     "review": "Mendi is very promising. The game works well. However many bugs - the Mendi icon spins eternally after finishing a training session and no longer writes to mindful minutes on iOS despite permissions being enabled.\n\nOther areas like after a breathing session the text “breathing animation. well done” exposed instead of an animation\n\nWhile the training session is good I’d really like new experiences that leverages the headset.",
@@ -52,10 +116,11 @@
     "date": "2025-06-27T23:29:17-07:00",
     "helpful": 0,
     "version": "3.1.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_2pshrdy1n",
+    "id": "app_store_1753650789463_ajwrbdl5n",
     "author": "BoyWithUke Official",
     "rating": 5,
     "review": "im being ded serious",
@@ -63,10 +128,11 @@
     "date": "2025-06-23T10:40:04-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7vaivph46",
+    "id": "app_store_1753650789463_f4j2tkv22",
     "author": "AscendTM02",
     "rating": 5,
     "review": "Easy to use. Just use it everyday. Amazing.",
@@ -74,10 +140,11 @@
     "date": "2025-06-16T09:46:44-07:00",
     "helpful": 0,
     "version": "3.1.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_11xp2vw6q",
+    "id": "app_store_1753650789463_7ohj5zdc9",
     "author": "LMR D",
     "rating": 5,
     "review": "The Mendi adds to a healthy morning routine and as the days go on I appreciate the fact that I rate the way I feel and give a brief description about my moods. The training is making more sense each time.",
@@ -85,10 +152,11 @@
     "date": "2025-06-12T09:27:18-07:00",
     "helpful": 0,
     "version": "3.1.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_wwhdk867p",
+    "id": "app_store_1753650789463_2byslhfzi",
     "author": "uelemd svsh",
     "rating": 5,
     "review": "I’m convinced this is one of the best devices on the market. Giving my 2 cents.",
@@ -96,10 +164,11 @@
     "date": "2025-06-10T06:47:29-07:00",
     "helpful": 0,
     "version": "3.1.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7w1l5v95h",
+    "id": "app_store_1753650789463_ttoxmwfv2",
     "author": "P.J. Smith",
     "rating": 5,
     "review": "Could this be the device I’ve been waiting for my entire life to help me with ADD? After 2 1/2 -3 weeks, I’ve seen phenomenal progress. It almost feels like my brain is starting to operate the way God created it instead of under the influence of the inability to focus, stay engaged with tasks, and finish assignments. At this point, I would give it six stars if possible.",
@@ -107,10 +176,11 @@
     "date": "2025-06-08T18:17:25-07:00",
     "helpful": 0,
     "version": "3.1.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_70h6ff0fd",
+    "id": "app_store_1753650789463_hjt92yq5p",
     "author": "Wiredwelder",
     "rating": 5,
     "review": "I can’t say enough good things about it. My anxiety is lower. I’m sleeping better. I’m healing better and I’m happier. I’m not having near the manic depression cycle. Highly recommend.!😁",
@@ -118,10 +188,11 @@
     "date": "2025-06-04T08:13:09-07:00",
     "helpful": 0,
     "version": "3.1.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_z4qhhk17y",
+    "id": "app_store_1753650789463_zv8tpuy3i",
     "author": "Ben Davidson",
     "rating": 5,
     "review": "As part of a project I am working to evaluate and assess the ability of wearable devices to achieve brain changes, I find MENDI one of the easiest to use and relaxation, sleep, and focus are improved.  After two month of daily use I now recommend MENDI to others.  Excellent product and app.",
@@ -129,10 +200,35 @@
     "date": "2025-06-01T12:52:33-07:00",
     "helpful": 0,
     "version": "3.1.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lobi2uvsz",
+    "id": "app_store_1753650789463_9mag4z5jt",
+    "author": "grabe jhones",
+    "rating": 5,
+    "review": "This app is the best app to learn our brain focus, planning etc. It helps me so much to stay focus and relax, i learn new things by reading 📖 at mendi and start training. When i have time, i ask my family to try it and they love it 🥰 thank you so much mendi 🍓🌞",
+    "title": "Amazing 😻",
+    "date": "2025-05-30T05:29:45-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "id"
+  },
+  {
+    "id": "app_store_1753650789463_2j9rcgbqt",
+    "author": "Poyraz mert",
+    "rating": 5,
+    "review": "Çok güzel",
+    "title": "Çok güzel",
+    "date": "2025-05-29T21:38:47-07:00",
+    "helpful": 0,
+    "version": "3.1.1",
+    "platform": "app_store",
+    "country": "tr"
+  },
+  {
+    "id": "app_store_1753650789463_mfmhvw9ez",
     "author": "Richard I AZ",
     "rating": 5,
     "review": "I just received the Mendi and have used it each of the first four days.  Each day I have improved not only my Mendi scores, but also my Sleep scores from my Oura ring app - which I love as well.  Also, for anyone interested: my wife and I also receive great benefits from our Apollo Neuro combined with Oura app.  Mendi is absolutely Awesome!!!!  Great investment in your brain’s health!!!!",
@@ -140,10 +236,11 @@
     "date": "2025-05-26T08:50:24-07:00",
     "helpful": 0,
     "version": "3.0.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_gpyj48224",
+    "id": "app_store_1753650789463_rfnexrpyt",
     "author": "Chirocarpenter",
     "rating": 5,
     "review": "Easy to use, helpful insights.",
@@ -151,10 +248,11 @@
     "date": "2025-05-22T03:03:56-07:00",
     "helpful": 0,
     "version": "3.0.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_mukm8ma93",
+    "id": "app_store_1753650789463_r1ool404o",
     "author": "Martin Gerard",
     "rating": 5,
     "review": "It brings balance to my force.",
@@ -162,10 +260,11 @@
     "date": "2025-05-17T07:24:05-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_is9tzoafo",
+    "id": "app_store_1753650789463_0gs2xekrb",
     "author": "Tim Boykin",
     "rating": 5,
     "review": "I have never been more clear headed. This is the best tool I have found for improving focus and overall mental wellness.",
@@ -173,10 +272,23 @@
     "date": "2025-05-17T03:44:58-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_kiok3f0h2",
+    "id": "app_store_1753650789463_bitegpl0y",
+    "author": "Kyliga föraren",
+    "rating": 5,
+    "review": "I really works! and I clearly feel that somerhing is happening with my brain. This product will be so helpful for so many people across the world struggeling with mental issues, or just want to improve their mental performance",
+    "title": "Amazing product",
+    "date": "2025-05-17T02:01:12-07:00",
+    "helpful": 0,
+    "version": "3.0.0",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789463_4ds6anj9q",
     "author": "Deetaken",
     "rating": 5,
     "review": "This is the tech that gets it done. 10 min of focus training…. Wow",
@@ -184,10 +296,23 @@
     "date": "2025-05-15T12:06:35-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_qmeyvizbq",
+    "id": "app_store_1753650789463_u6g9tegox",
+    "author": "Keskeseksa",
+    "rating": 5,
+    "review": "I have been using Mendi since I received it from a startup about three years ago. Mendi is a significant factor for my well being.",
+    "title": "Mendi is still the best",
+    "date": "2025-05-15T06:00:22-07:00",
+    "helpful": 0,
+    "version": "3.0.0",
+    "platform": "app_store",
+    "country": "th"
+  },
+  {
+    "id": "app_store_1753650789463_n75wgutmm",
     "author": "Heels589",
     "rating": 5,
     "review": "I do brain training for 15 minutes every morning. I can see great improvements in my cognitive ability.",
@@ -195,10 +320,11 @@
     "date": "2025-05-07T04:22:02-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_laj4t2m5v",
+    "id": "app_store_1753650789463_mwcnjh75h",
     "author": "Goose0987",
     "rating": 5,
     "review": "This has helped me stay focused at work.  Days go better when I use this.  Once you do it consistently for a while it is amazing how it helps.",
@@ -206,10 +332,11 @@
     "date": "2025-04-28T11:50:19-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rzl5lrvf8",
+    "id": "app_store_1753650789463_f7jgfs0ks",
     "author": "AgentM3",
     "rating": 5,
     "review": "The device is super simple to use and It’s comfortable when snug on your forehead. The “game” is interesting because it’s a cool visual representation of my ability to focus. Another way to put it is that it’s a visual representation of your brains activity when attempting to focus on a task or a visual representation of the brain during meditation. I really like the feedback and the ability to compare past sessions to current. It took about a week or so before I really started noticing small improvements in focus and I do mean small subtle but effective improvements. With patience and consistency I feel strongly that this device will really help with my focus, anxiety, stress and sleep. It’s going to take time and I won’t develop some cool super powers but I am finally able to train my brain and see/feel the improvements.",
@@ -217,10 +344,11 @@
     "date": "2025-04-27T10:35:46-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_vjcz4jkvt",
+    "id": "app_store_1753650789463_9qmfmhyom",
     "author": "Ground zero follower",
     "rating": 5,
     "review": "The app is good for daily reminders. I don’t always follow them. I seem to have better focus when I use the app. I need to be consistent to provide a better review.",
@@ -228,10 +356,11 @@
     "date": "2025-04-24T05:05:22-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_yivlwxins",
+    "id": "app_store_1753650789463_8sk2c81nc",
     "author": "Bsawma",
     "rating": 5,
     "review": "This really helps get you started on the journey of breath work. It is an amazing tool to use to help people remember to breathe and focus on their breath.",
@@ -239,10 +368,11 @@
     "date": "2025-04-22T22:10:22-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_9s621c1ph",
+    "id": "app_store_1753650789463_sa4ury5qs",
     "author": "The Col.",
     "rating": 5,
     "review": "I’ve been using it for only a few weeks but I feel the difference in my concentration and mental  clarity.\n\nMake It a GREAT Day!\nThe Col.™️",
@@ -250,10 +380,11 @@
     "date": "2025-04-22T06:32:38-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_8enlic5cc",
+    "id": "app_store_1753650789463_fsx847oaj",
     "author": "rice cake girl",
     "rating": 4,
     "review": "I look forward to every session.  I would like more companion meditation content.",
@@ -261,10 +392,11 @@
     "date": "2025-04-22T04:23:52-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_onxnhdwq5",
+    "id": "app_store_1753650789463_3nrableuu",
     "author": "Nataly Noriega",
     "rating": 5,
     "review": "Recommending Mendi since I ordered it I haven't stopped using it every day, I noticed results after a week",
@@ -272,10 +404,23 @@
     "date": "2025-04-19T04:36:48-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lbvp8gtkp",
+    "id": "app_store_1753650789463_tfnqvpk69",
+    "author": "MsDulj",
+    "rating": 5,
+    "review": "Really great device, game changer when it comes to brain training and mental health. The app is continuously improving and new features are being added.",
+    "title": "Game changer",
+    "date": "2025-04-19T00:07:50-07:00",
+    "helpful": 0,
+    "version": "3.0.0",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789463_2gxzkznsd",
     "author": "cfalter",
     "rating": 5,
     "review": "I’ve been using this for three months now. I’ve noticed my house is cleaner, I get dishes done, working out more, and I’ve stopped binge eating. Beyond grateful for the founders. This product works!!",
@@ -283,10 +428,11 @@
     "date": "2025-04-17T22:32:01-07:00",
     "helpful": 0,
     "version": "3.0.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_f2iuacec2",
+    "id": "app_store_1753650789463_098v9ld75",
     "author": "aliNYSF",
     "rating": 4,
     "review": "Me and my kid really liked it, but we couldn’t figure out how to add a profile for my son. It was really fun to watch an 8 1/2 year-old use his brain to control the shape",
@@ -294,10 +440,11 @@
     "date": "2025-04-10T18:28:38-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_6oeudsjms",
+    "id": "app_store_1753650789463_9rvet4kjv",
     "author": "Williston North Dakota oil boom!!",
     "rating": 5,
     "review": "I’ve been using Mendi off and on for the past 6 1/2 months now. As long as I can stay consistent I truly feel like it is helping I’m not sure. I fully understand it yet, but I know my day-to-day activities, demeanor attitude, buisness and overall well-being has improved.\nI’m excited to see what the next six months look like.",
@@ -305,10 +452,11 @@
     "date": "2025-04-10T02:42:41-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_jbb543jhy",
+    "id": "app_store_1753650789463_hpz771rol",
     "author": "Crsmalley",
     "rating": 5,
     "review": "I see more and more little improvements in myself the longer I use it. Like, I am more willing to get things done that I dislike doing around the house or with my budget. I am becoming more focused at work. I notice I am getting better at not being triggered at some things and I am recovering quicker at the things that do still get me. I have been using it for about a month now. The other day I was hit with hard information and I was actually able to say, I am done worrying about this tonight and chose to go to sleep and actually slept without my mind racing all night or preventing me from going to sleep. That was huge. I also am noticing more when I am being critical towards other. Like it is bringing awareness to me so I can change it. I think it will also help me change it the more I use it. I catch myself breathing more through stressful moments helping them be less stressful. This thing is a miracle that come in a box. It is so easy to use and I have my whole family using it. Thank you mendi!! I have done neurofeedback before to help with a head injury. I am so grateful for the price of this vs that, and the convenience of having it be in the home or wherever I want to do it. Thank you thank you thank you! Using this device is literally helping my marriage get better!! Bit by bit as we both use it. Those reading this, you have to give it the time and consistency but it is such an easy thing to do. I do miss a day or two a week and still get amazing results so you dont have to be perfect but it is sooo worth the little effort it takes to do it!",
@@ -316,10 +464,11 @@
     "date": "2025-04-06T20:56:16-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_1zd48vu8y",
+    "id": "app_store_1753650789463_4nnu3i1ez",
     "author": "Stgenv",
     "rating": 5,
     "review": "Thank you this has been helping me focus more in school and my mental heath, also after when I go to sleep I’m able to get better sleep and thank you I love Mendi -josue",
@@ -327,10 +476,11 @@
     "date": "2025-04-03T20:17:54-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ij8gipq8y",
+    "id": "app_store_1753650789463_7xat41bg3",
     "author": "Saifzy",
     "rating": 5,
     "review": "Mendi",
@@ -338,10 +488,11 @@
     "date": "2025-04-03T19:02:10-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_fd0ujnkmo",
+    "id": "app_store_1753650789463_989pcv2x0",
     "author": "Amanda KZJ",
     "rating": 5,
     "review": "Love this. Used it at the recommendation of a psychologist I worked with when discussing my struggles with medications and was able to totally get off of meds because of Mendi. Highly recommend.",
@@ -349,10 +500,11 @@
     "date": "2025-04-01T04:55:38-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_kdo7btc58",
+    "id": "app_store_1753650789463_gxwopyd9p",
     "author": "MariaEnlightened",
     "rating": 5,
     "review": "A powerful tool and resource to have.   I can feel the shuttle changes in me with my focus and overall positive energy after using Mendi.  Highly recommend it.",
@@ -360,10 +512,11 @@
     "date": "2025-03-29T21:17:16-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ds9tjh0lj",
+    "id": "app_store_1753650789463_a0avrh6d9",
     "author": "Tina K11",
     "rating": 4,
     "review": "But the app could use some minor improvements. The overall activity snapshot at the end could have neural activity numbers going up the side of the graph making it more accurate for showing how a session actually looked for brain activity. That way those graphs would show something more real. A graph that only shows time along the bottom and nothing going up the side is not a reflection of the actual data. Also if the Mendi app could show battery life of the headband that would greatly improve frustration when the headband lights up as if it should work but the app doesn't connect.  I have also had to turn off my phone to reset the app which gets glitchy from time to time.  Lastly the performance, commitment, and activity circles on the top what are they actually showing? I understand commitment but the other two are vague in what they are relating to.   Otherwise I love the Mendi and will continue to use it as it is helping me understand what affects my mental cognition ❣️",
@@ -371,10 +524,11 @@
     "date": "2025-03-29T11:20:51-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_o76dwd16f",
+    "id": "app_store_1753650789463_wgqjcgqg3",
     "author": "Tmoooney",
     "rating": 3,
     "review": "I like the concept and it the reading but I want to get the data from my brain when doing meditations or watching certain videos that are uplifting.  When you use this only allows your audio to come from this app and that limits the ability of this app to read your brain activity whilst engaging in a variety of mind enhancing modalities.  I hope they are able to update and enhance its usability.",
@@ -382,10 +536,23 @@
     "date": "2025-03-20T09:01:14-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_843i5rxlw",
+    "id": "app_store_1753650789463_iyyt54yrd",
+    "author": "Annabelle Gauthier",
+    "rating": 5,
+    "review": "Mendi is absolutely fantastic. Since I started using it, I feel I’m managing my emotions on a whole new level. I no longer have any cravings, and it’s genuinely improving my quality of life.",
+    "title": "I rarely rate any apps",
+    "date": "2025-03-13T04:46:25-07:00",
+    "helpful": 0,
+    "version": "2.4.9",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789463_iwhxa6vrm",
     "author": "FarewellToSnapChat",
     "rating": 5,
     "review": "Life changing",
@@ -393,10 +560,11 @@
     "date": "2025-03-11T01:32:13-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_xiosqxoxx",
+    "id": "app_store_1753650789463_v2cowe8my",
     "author": "Rory Eldridge",
     "rating": 5,
     "review": "Amazing just Amazing this is a must get item",
@@ -404,10 +572,23 @@
     "date": "2025-03-10T21:56:51-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_uvn0bo856",
+    "id": "app_store_1753650789463_hsnd2zjo5",
+    "author": "MostMajors",
+    "rating": 5,
+    "review": "I find it very helpful for training on keeping focus and meditation but I would to be able to hide progress during the session to be able to only focus on the movement of the ball.",
+    "title": "Great tool!",
+    "date": "2025-03-09T23:39:55-07:00",
+    "helpful": 0,
+    "version": "2.4.9",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789463_j3gnigvox",
     "author": "Wah ooh rah Amon re poo sue",
     "rating": 5,
     "review": "5star big big big 5 star ms sue and  new boo sue recommend as well Ty",
@@ -415,10 +596,11 @@
     "date": "2025-03-09T19:58:35-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0c3hq4y7q",
+    "id": "app_store_1753650789463_v9pe3tdbg",
     "author": "Mayratheestalli",
     "rating": 5,
     "review": "Feels like meditation",
@@ -426,10 +608,11 @@
     "date": "2025-03-09T17:12:50-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ueuwscb5h",
+    "id": "app_store_1753650789463_r10dlhu4y",
     "author": "Okeydokeyartichokey1!",
     "rating": 5,
     "review": "This app is #1",
@@ -437,10 +620,11 @@
     "date": "2025-03-06T22:08:20-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_dtyftko7t",
+    "id": "app_store_1753650789463_e9d1w50x2",
     "author": "Buff393",
     "rating": 5,
     "review": "I have been suffering from trauma for a while and this has been life changing!",
@@ -448,10 +632,11 @@
     "date": "2025-03-02T17:25:52-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rbgn8ylop",
+    "id": "app_store_1753650789463_uzo9i95ko",
     "author": "dhnmac",
     "rating": 5,
     "review": "This is a device that’s been helping me achieve goals and rewards beyond any subjective expectation. It’s achievable by any means possible. Thank you for this breakthrough for myself!",
@@ -459,10 +644,11 @@
     "date": "2025-03-02T10:15:07-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_skutzq6t3",
+    "id": "app_store_1753650789463_sxop5iqbp",
     "author": "Lodestar-0",
     "rating": 5,
     "review": "The device is great and I have noticed my focus is improving. I wish there were a focus monitoring feature so I can wear the mendi while I'm working and monitor my focus levels throughout the day. Maybe there are other ways to use the device outside of training?",
@@ -470,10 +656,11 @@
     "date": "2025-02-28T07:29:24-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_dvyo3e90y",
+    "id": "app_store_1753650789463_pgcdrvwae",
     "author": "ConradIII",
     "rating": 5,
     "review": "i used this app for the first time today and i think it is very good. good info, good design and easy to use. the only thing negative was that it took me a bit to figure out how to connect the headset to my phone with bluetooth. be sure to \"allow\" the app to use your bluetooth in the settings of your phone. it seems obvious but i have many bluetooth devices and i don't think i ever had to do that. if i did, the app told me i had to and this one did not.",
@@ -481,10 +668,11 @@
     "date": "2025-02-19T18:23:31-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_q2q064evm",
+    "id": "app_store_1753650789463_lw7rqgs01",
     "author": "Micarona",
     "rating": 5,
     "review": "I’m a medically retired firefighter/medic with diagnosed ADHD, PTSD, general anxiety, and depression.  I underwent treatments including EMDR, hypnotherapy, CBT, and DBT.  I was prescribed alpha stimulation to help manage nightmares, irrational fears, suicidal ideations, and sleep deprivation (essentially shock therapy).  I have learned that meditation and exercise historically helped me the most.  Then Mendi came screaming across feed. I bought in because of a rudimentary familiarity with brain function in a PTSD brain (with skepticism). \n\nUltimately, I love this tool and am finding myself meditating with it more than without it.  I love seeing how my sessions are monitored.  I also feel more relaxed after my sessions.  I had my 10th session over the last two weeks today and I can visualize how my focus is improving.\n\nI can’t confirm Mendi is responsible for helping me quit chewing, but my curbed desire for alcohol and nicotine appear to have a correlation with the use of Mendi. I am far less interested in stimulants than I have been in a long time.  \n\nI am recommending this tool for further investigation from my union to aid in first responder mental health training and treatments.",
@@ -492,10 +680,23 @@
     "date": "2025-02-19T09:41:59-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_grbdma7xs",
+    "id": "app_store_1753650789463_or94aleov",
+    "author": "NiccoloPr",
+    "rating": 5,
+    "review": "This neuro feedback tool has definitely changed my life. The best way to put it is: between a stimulus and a response there’s a gap. Mendi helps you creating and staying in that gap, so that you can take more conscious decisions. \nA quick example: I had been biting my nails for basically all my life. Then I started training with Mendi. I know recognise the triggers and completely stopped biting my nails. I still bring my fingers close to my mouth at times, but then I’m in that gap and I take the conscious decision to don’t do it.\n\nIt’d be nice to see if the guys at mendi can create some new games to play with the headband.",
+    "title": "Life changer",
+    "date": "2025-02-13T22:41:12-07:00",
+    "helpful": 0,
+    "version": "2.4.9",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789463_7sthi4rlj",
     "author": "hgerm",
     "rating": 4,
     "review": "So in the 20 days I’ve noticed some better focus at work. I’m able to stay on one project longer without feeling the need to jump to another. I’m remembering more of my dreams after waking up too.  Looking forward to some more progress to give a five star.",
@@ -503,10 +704,11 @@
     "date": "2025-02-09T07:04:57-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_vgez3jrtk",
+    "id": "app_store_1753650789463_npcum33ul",
     "author": "geekglasses",
     "rating": 5,
     "review": "Exceptional device. Mendi has helped me feel better, experience a comfortable calm, and sleep better. Mendi has helped me experience my thoughts in what I can only describe as a more manageable rather than hectic way. I can’t explain it, it’s like it’s easier to think and I don’t need as much energy to think. I love the breath work before each session because it helps me focus and prepare for my session so that I’m present and participating. It’s a comfortable device, easy to set up. I’m super curious to see how I do over a longer period of time and look forward to improving my brain health.",
@@ -514,10 +716,23 @@
     "date": "2025-02-09T01:39:54-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_t4kyf8hto",
+    "id": "app_store_1753650789463_4oqxm2fnm",
+    "author": "Oscar0704",
+    "rating": 5,
+    "review": "Extremely helpful product and a great structured app",
+    "title": "My favourite app",
+    "date": "2025-02-08T23:10:21-07:00",
+    "helpful": 0,
+    "version": "2.4.9",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789463_mtafxqv8z",
     "author": "Fishrangeley",
     "rating": 5,
     "review": "Great device and my middle prefrontal cortex seems to being fine so far.\n\nGreat way for an almost 80 year old to check mental activity. Great App and I have",
@@ -525,10 +740,11 @@
     "date": "2025-02-06T09:09:04-07:00",
     "helpful": 0,
     "version": "2.4.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_4fzsa2e06",
+    "id": "app_store_1753650789463_ev7jbb60b",
     "author": "Orionbellatrix",
     "rating": 5,
     "review": "I am absolutely loving using the app and the gadget.",
@@ -536,10 +752,35 @@
     "date": "2025-01-30T18:11:04-07:00",
     "helpful": 0,
     "version": "2.4.8",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_96vvs1gpx",
+    "id": "app_store_1753650789463_67i63116c",
+    "author": "BlackDoom1",
+    "rating": 5,
+    "review": "I find it helpful to make focus on every day task and not little anxiety triggers. I have szchizophrenia and bipolar and I can get caught up in my symptoms even within the past week of training I find it that I can focus more on every day stuff and less on my illness",
+    "title": "Great workout for focus and reduced anxiety",
+    "date": "2025-01-26T11:51:54-07:00",
+    "helpful": 0,
+    "version": "2.4.8",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789463_arcf8wrlq",
+    "author": "Haywire450",
+    "rating": 5,
+    "review": "Makes you feel better",
+    "title": "Works well",
+    "date": "2025-01-22T19:44:40-07:00",
+    "helpful": 0,
+    "version": "2.4.8",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789463_220lh7ujb",
     "author": "M0E07.",
     "rating": 5,
     "review": "Noticeable difference within the first week, it doesn’t leave my side anymore.",
@@ -547,10 +788,23 @@
     "date": "2025-01-17T10:26:20-07:00",
     "helpful": 0,
     "version": "2.4.8",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_4t4xkrov7",
+    "id": "app_store_1753650789463_wx02a5hsg",
+    "author": "Chip_985",
+    "rating": 4,
+    "review": "Far more enjoyable than sitting around thinking about your breath.",
+    "title": "A better way to meditate",
+    "date": "2025-01-15T14:45:50-07:00",
+    "helpful": 0,
+    "version": "2.4.8",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789463_dzrv33sde",
     "author": "Probly steve",
     "rating": 3,
     "review": "I have only just begun using Mendi, so I can’t speak to results yet. I find the app, informative, and interesting. However, I wish there were more information about the scores. The explanation on the website is filled with vague hedges. Basically, it says your score doesn’t matter as much as your improvement. But it doesn’t even quantify what a good improvement would be. While I understand a “good” score might vary widely depending on age and preexisting health conditions (adhd, depression,… etc),  and lifestyle (exercise, diet, substance use/abuse, etc.), it would be great if they could present us with some averages and means( baselines based on age and categories people self identify they are trying to improve). They must have a significant amount of data at this point, and the fact that they are not willing to share this data does not instill me with confidence.",
@@ -558,10 +812,11 @@
     "date": "2025-01-12T07:24:45-07:00",
     "helpful": 0,
     "version": "2.4.8",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_pnrx2pp4k",
+    "id": "app_store_1753650789463_r4lldpwt9",
     "author": "Wah1969",
     "rating": 5,
     "review": "I am just 10 days in and am experiencing a better mindset. Looking forward to my 30 day experience. Well worth the investment!",
@@ -569,10 +824,11 @@
     "date": "2025-01-12T05:33:15-07:00",
     "helpful": 0,
     "version": "2.4.8",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_tu0a5ovkf",
+    "id": "app_store_1753650789463_aw2ow53ot",
     "author": "ezstork",
     "rating": 5,
     "review": "Only neurofeedback device to legitimately claim to improve blood flow to the prefrontal cortex through scientific method’s proven with studies done around the world. \nI am a retired physician with long COVID 19 and long Vax complications. \nI have seen tremendous value in how my brain functions after I use the Mendi. (Sorry for the length of this. It was too important to not provide the details that may help others. )",
@@ -580,10 +836,11 @@
     "date": "2025-01-05T15:39:18-07:00",
     "helpful": 0,
     "version": "2.4.8",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_cbcb35clx",
+    "id": "app_store_1753650789463_xbmsew9gy",
     "author": "Micheal franchesco",
     "rating": 5,
     "review": "Mendi is great so far",
@@ -591,10 +848,11 @@
     "date": "2025-01-02T06:19:52-07:00",
     "helpful": 0,
     "version": "2.4.7",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_oochk1ovu",
+    "id": "app_store_1753650789463_4vkxye2y1",
     "author": "Lovingtheexperience",
     "rating": 5,
     "review": "Beautiful and life changing. 💕",
@@ -602,10 +860,23 @@
     "date": "2025-01-01T07:23:21-07:00",
     "helpful": 0,
     "version": "2.4.7",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_pekai491y",
+    "id": "app_store_1753650789463_prybiddir",
+    "author": "Luca12359988",
+    "rating": 5,
+    "review": "Utilizzando il dispositico e l’ app ho notato un netto miglioramento nella mia concentrazione. Consigliato.",
+    "title": "Utile",
+    "date": "2024-12-30T02:58:06-07:00",
+    "helpful": 0,
+    "version": "2.4.7",
+    "platform": "app_store",
+    "country": "it"
+  },
+  {
+    "id": "app_store_1753650789463_03l2cux4x",
     "author": "Ade martin",
     "rating": 5,
     "review": "My anxiety/stress level decreased significantly! Anti stressful device! Great for meditation!",
@@ -613,10 +884,23 @@
     "date": "2024-12-29T03:39:42-07:00",
     "helpful": 0,
     "version": "2.4.7",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7q4wsmkmu",
+    "id": "app_store_1753650789463_kfyhsub4q",
+    "author": "ArnieSpeaks",
+    "rating": 5,
+    "review": "The app is easy to use and helps me to improve my focus and state of calm. It is not cluttered with useless information and options. I look forward to a productive and satisfying future with the Mendi app.",
+    "title": "Really works",
+    "date": "2024-12-28T11:32:40-07:00",
+    "helpful": 0,
+    "version": "2.4.7",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789463_dkj5hmojk",
     "author": "Boss Man 12345678987654321",
     "rating": 5,
     "review": "Great product, would highly recommend for people who want to focus more!",
@@ -624,10 +908,11 @@
     "date": "2024-12-18T13:40:18-07:00",
     "helpful": 0,
     "version": "2.4.7",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_d41h64q1m",
+    "id": "app_store_1753650789463_tcaq8w2wu",
     "author": "Solid Contact",
     "rating": 5,
     "review": "I have had Mendi for more than 2 years now. Currently I’m on a 41 day streak. My mood, well-being, productivity, and many other aspects are better because of using Mendi. I notice little things all the time that are without a doubt improvements. Everything is better, sometimes a little, sometimes a lot better. I love to play golf. Doing a 10 minute Mendi session before golfing produces a mental focus that maintains itself throughout my entire round, which I love. I can’t say enough good things about Mendi.",
@@ -635,10 +920,23 @@
     "date": "2024-12-10T01:27:36-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ju5uahy3n",
+    "id": "app_store_1753650789463_cetxizye6",
+    "author": "Kidtazi",
+    "rating": 5,
+    "review": "In the summer of 2023, I suffered a concussion. I had severe vertigo, headaches, limited mental bandwidth and my emotional regulation, which had been above average, deteriorated to almost non-existent within weeks. I realized I needed to take action to aid my recovery.\n\nAfter extensive research, I decided Mendi was the most suitable brain training device for my rehab. I purchased the device about 9-10 months after the injury, just before this last summer.\n\nAlthough I haven’t been as disciplined as I’d like, my scores have improved, and my ability to focus has increased significantly. Not only has Mendi helped me return to baseline, but it has also enhanced my emotional regulation beyond what it was before the concussion.\n\nI can quantify this improvement because I used to experience significant fear while rock climbing outdoors—a reasonable physiological response. This past summer, while I did feel some fear, it was about 20% as intense. Even in the most extreme situations, I was able to dial it back and recompose myself. In many cases, I felt no fear at all, which was a completely new experience for me since I started climbing.\n\nI’m surprised this app doesn’t have more reviews. Mendi is a game changer. I’m incredibly grateful for this product and would love to see more gamification features to encourage consistent training.",
+    "title": "Surprising Results",
+    "date": "2024-12-07T14:39:15-07:00",
+    "helpful": 0,
+    "version": "2.4.5",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789463_6rwv2u1o9",
     "author": "Ima is here",
     "rating": 5,
     "review": "Best self. This device is amazing !",
@@ -646,10 +944,11 @@
     "date": "2024-12-06T13:06:55-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7lvgb47xe",
+    "id": "app_store_1753650789464_n758wzb1c",
     "author": "Denildo!!",
     "rating": 5,
     "review": "I’ve been using Mendi to train my memory, and it has exceeded my expectations. The app combines science and usability to help me improve my mental performance. I love how engaging and easy-to-use it is, making each session enjoyable. It’s not just an app; it’s a tool for personal growth. Highly recommend it to anyone looking to enhance their focus, memory, and mental health!",
@@ -657,10 +956,11 @@
     "date": "2024-11-25T15:02:05-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_699psv2qe",
+    "id": "app_store_1753650789464_pl1scm39o",
     "author": "StuTheRabbit!!!",
     "rating": 5,
     "review": "I am 75 years old and like to keep my mind healthy and active. \nThis seems to be very worthwhile for me. Good brain focus training and interesting enough to make a 10 minute per day habit.",
@@ -668,10 +968,11 @@
     "date": "2024-11-23T05:19:09-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_wb14fok1w",
+    "id": "app_store_1753650789464_uws0jd6lc",
     "author": "KapJohn",
     "rating": 5,
     "review": "Love this app! This is exactly what I needed to help me focus, reduce impulsivity and become more productive.",
@@ -679,10 +980,11 @@
     "date": "2024-11-21T03:21:25-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0su4b75z8",
+    "id": "app_store_1753650789464_mga1h0xjs",
     "author": "Nick \"name\"",
     "rating": 5,
     "review": "I’ve (31M) used this twice a day since buying it, and already notice I’ve got better focus, and I’m a lot more calm. \n\nCan’t wait to see what I’ll be like in a few more weeks!",
@@ -690,10 +992,11 @@
     "date": "2024-11-20T23:11:17-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ftpvhj45y",
+    "id": "app_store_1753650789464_qxj26ogkx",
     "author": "DCtennis",
     "rating": 5,
     "review": "Been using Mendi twice a day and you can see every day my concentration gets better.\nFocus gets better also.\nI am really enjoying it.",
@@ -701,10 +1004,11 @@
     "date": "2024-11-20T20:19:34-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_djvdo90gq",
+    "id": "app_store_1753650789464_patkw0kyn",
     "author": "Timmyfranks",
     "rating": 3,
     "review": "Super cool and love the device. The app needs basic support. Namely it needs both iPad support and Multiple profiles on a single device. Guest mode is ok but doesn’t help.",
@@ -712,10 +1016,11 @@
     "date": "2024-11-17T10:28:11-07:00",
     "helpful": 0,
     "version": "2.4.5",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_mn8n8n9f1",
+    "id": "app_store_1753650789464_c3h2tdg3h",
     "author": "mis7702",
     "rating": 5,
     "review": "It’s interesting. I didn’t know for the first couple times how to control the ball but I think I’m starting to understand how to control the ball little bit now. Either way it’s pretty interesting to find out how your brain works through this device.",
@@ -723,10 +1028,11 @@
     "date": "2024-11-08T17:11:12-07:00",
     "helpful": 0,
     "version": "2.4.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ovnzickvd",
+    "id": "app_store_1753650789464_nakim0qyc",
     "author": "yaddiddabooboo",
     "rating": 5,
     "review": "The instant Neuro feedback is incredible even though it’s just oxygen intake in the prefrontal cortex it’s fascinating to be able to train my perspective and attention",
@@ -734,10 +1040,11 @@
     "date": "2024-11-01T17:05:45-07:00",
     "helpful": 0,
     "version": "2.4.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7vyji5qsf",
+    "id": "app_store_1753650789464_vzeh90jin",
     "author": "birds are super cooool",
     "rating": 5,
     "review": "I was really stressed until I started using Mendi and the night I started slept like a baby. Would recommend it to anyone. 👍",
@@ -745,10 +1052,11 @@
     "date": "2024-10-31T22:19:52-07:00",
     "helpful": 0,
     "version": "2.4.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_i6no506t7",
+    "id": "app_store_1753650789464_ufl4kodel",
     "author": "unicomp21",
     "rating": 5,
     "review": "Olympic gym for the relaxation response to life?",
@@ -756,10 +1064,23 @@
     "date": "2024-10-31T03:04:02-07:00",
     "helpful": 0,
     "version": "2.4.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_i8gntc00u",
+    "id": "app_store_1753650789464_pej3ph2qe",
+    "author": "Skell in town",
+    "rating": 5,
+    "review": "Nice layout",
+    "title": "Intuitive and ease of use",
+    "date": "2024-10-27T23:10:31-07:00",
+    "helpful": 0,
+    "version": "2.4.2",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_kketoh115",
     "author": "882 rockinway",
     "rating": 5,
     "review": "I do Mendi everyday. I have easier focus and get into flow states for longer periods.",
@@ -767,10 +1088,23 @@
     "date": "2024-10-27T14:06:05-07:00",
     "helpful": 0,
     "version": "2.4.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_vigcn0yyt",
+    "id": "app_store_1753650789464_eccdluhya",
+    "author": "Neurocentric",
+    "rating": 5,
+    "review": "The app is super well designed. The game feels motivating and relaxing at the same time. Pairing the device is also easy.",
+    "title": "Well made",
+    "date": "2024-10-26T22:09:14-07:00",
+    "helpful": 0,
+    "version": "2.4.2",
+    "platform": "app_store",
+    "country": "nl"
+  },
+  {
+    "id": "app_store_1753650789464_j4ybd1f8y",
     "author": "TJ Member",
     "rating": 2,
     "review": "The date of birth scroll makes you start at year 1.   After scrolling for 2000 years, it won’t let you save your DOB.   App is pretty glitchy and the flow of info isn’t intuitive.  Hopefully it will improve.",
@@ -778,10 +1112,11 @@
     "date": "2024-10-21T22:59:08-07:00",
     "helpful": 0,
     "version": "2.4.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rgosis0x4",
+    "id": "app_store_1753650789464_b3np4akcm",
     "author": "1st Ride of the year",
     "rating": 5,
     "review": "I have done Mendi for about a year and can visually see how my frontal lobe is doing when I wake up. I love the different notes those stars play on our screen. It helps me focus.",
@@ -789,10 +1124,11 @@
     "date": "2024-10-20T04:34:45-07:00",
     "helpful": 0,
     "version": "2.4.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_i3lkzmij9",
+    "id": "app_store_1753650789464_9yofe2h9h",
     "author": "E.KoSo",
     "rating": 5,
     "review": "Mendi’s app and device provide encouragement to maintain a daily practice of concentration and the app provides interesting information about biofeedback training and its effects on mental and psychological function.",
@@ -800,10 +1136,23 @@
     "date": "2024-10-17T18:41:55-07:00",
     "helpful": 0,
     "version": "2.3.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_92l0za1gd",
+    "id": "app_store_1753650789464_q1veuq8eq",
+    "author": "Ahagcydb",
+    "rating": 5,
+    "review": "Feel incredible after every session. Please add more visual themes/sound effects to choose from to increase the novelty!",
+    "title": "Awesome",
+    "date": "2024-10-15T22:52:42-07:00",
+    "helpful": 0,
+    "version": "2.3.4",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_ldeaj46sd",
     "author": "Squirrel squirrel13",
     "rating": 5,
     "review": "I have been using mending for one year now.  After a few months I noticed an increase in my ability to focus, and manage my impulsivity.  I have ADHD inattentive, and my coworkers and spouse have commented how much better I am at managing my emotions.  I can be quick to frustration and anger.  Mendi has helped my life, I will be a life long user.",
@@ -811,10 +1160,11 @@
     "date": "2024-10-15T06:11:13-07:00",
     "helpful": 0,
     "version": "2.3.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_1n2y4chk4",
+    "id": "app_store_1753650789464_ocup0u1bs",
     "author": "pagam2",
     "rating": 5,
     "review": "Mendi it’s an amazing devil for ADHD i absolutely love it and i feel it is very helpful with executive function training",
@@ -822,10 +1172,11 @@
     "date": "2024-10-07T05:34:23-07:00",
     "helpful": 0,
     "version": "2.3.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_e8cok0gbg",
+    "id": "app_store_1753650789464_vha2q5ctu",
     "author": "Happy Mendi Userr",
     "rating": 5,
     "review": "I love the ability to take notes and I use MENDI as a partner to Vielight for the Brain and Vagus Nerve.",
@@ -833,10 +1184,23 @@
     "date": "2024-10-05T18:01:36-07:00",
     "helpful": 0,
     "version": "2.3.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_mdt09ackv",
+    "id": "app_store_1753650789464_1weivxc0s",
+    "author": "Kaiser3535",
+    "rating": 5,
+    "review": "Bu ürünü 3 yıldır düzenli olarak hergün kullanmaktayım, DEHB hastadı bir birey olarak bana odaklanmamda ve gündelik rutin işlerimi düzene sokmamda çok yardımcı oldu. Teşekkürler mendi Team",
+    "title": "Harika bir beyin egzersiz cihazı",
+    "date": "2024-10-05T03:11:46-07:00",
+    "helpful": 0,
+    "version": "2.3.4",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_zj89itne1",
     "author": "BirdieB01",
     "rating": 5,
     "review": "Best decision I made getting this device!",
@@ -844,10 +1208,11 @@
     "date": "2024-10-03T07:08:22-07:00",
     "helpful": 0,
     "version": "2.3.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_qu3006qa7",
+    "id": "app_store_1753650789464_diwlfq2a2",
     "author": "A Headband for your brain",
     "rating": 5,
     "review": "For training the front of the brain,this is the thing to get.It helps the blood flow in that area to get to pay attention.I think it’s awesome as a person with ADHD.",
@@ -855,10 +1220,11 @@
     "date": "2024-09-30T18:18:25-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_zukj8k0w1",
+    "id": "app_store_1753650789464_xwzr1nk65",
     "author": "EEBloom",
     "rating": 5,
     "review": "I like everything I see, and I like the science behind it, and I am hoping for some remarkable benefits. I’ll probably give you a five star later on, but it wouldn’t be accurate to rate it on only six sessions. \n\nUpdated up to five stars. Even if it was just a video game without benefits, I am beginning to enjoy the feeling of control over a part of my brain solely through intention. The  moving image and sounds feed back to me what I’m feeling quite accurately.",
@@ -866,10 +1232,11 @@
     "date": "2024-09-29T18:14:32-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_nafqch5op",
+    "id": "app_store_1753650789464_8unm4j7b1",
     "author": "Sunfish2.0",
     "rating": 5,
     "review": "Mendi has help me use my brain to improve my focus at school. It is very relaxing shout out to Mendi for changing my life.",
@@ -877,10 +1244,23 @@
     "date": "2024-09-28T18:22:28-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_p5t3mma1v",
+    "id": "app_store_1753650789464_ozng57if4",
+    "author": "ltackmann",
+    "rating": 5,
+    "review": "Great when conveniently used to increase focus. Would love the app to have more regular updates on the learning path",
+    "title": "Great for focus",
+    "date": "2024-09-27T22:43:12-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_tsw7cpa9l",
     "author": "Karishka68",
     "rating": 5,
     "review": "I noticed I am more relaxed latelyand have better attitude towards things.",
@@ -888,10 +1268,11 @@
     "date": "2024-09-25T15:34:47-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_2o87nv318",
+    "id": "app_store_1753650789464_86nu6nz1t",
     "author": "Corvus.Corax.",
     "rating": 1,
     "review": "“ When you use our Services, we process certain of your: Identification Data (Email, Username, Phone Number, Country, City, Date of birth, User ID, IP addresses); Personal Characteristics (weight, height, and gender).”",
@@ -899,10 +1280,11 @@
     "date": "2024-09-24T19:55:02-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_131hzxr92",
+    "id": "app_store_1753650789464_akpk0s65v",
     "author": "Big-Sushi",
     "rating": 4,
     "review": "Almost 60 consecutive days in and I can feel my focus getting better. I can concentrate on things for a longer period of time. My mood has tends to be a little more mellow  after each 10-15 minute session as well.",
@@ -910,10 +1292,11 @@
     "date": "2024-09-20T09:11:07-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_jrbuw0idh",
+    "id": "app_store_1753650789464_be74mfin0",
     "author": "i cant find 1",
     "rating": 5,
     "review": "Yes",
@@ -921,10 +1304,23 @@
     "date": "2024-09-20T05:41:15-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0vxis9n28",
+    "id": "app_store_1753650789464_lnore3zjz",
+    "author": "Timotei stef",
+    "rating": 4,
+    "review": "The widget is useful but needs a redesign to look okay. Content is too close to the edges.",
+    "title": "Widget needs a redesign.",
+    "date": "2024-09-17T08:20:03-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "ro"
+  },
+  {
+    "id": "app_store_1753650789464_z7099beg3",
     "author": "kitty pineapple",
     "rating": 5,
     "review": "This tool dramatically increases my quality of the breathing exercises I do daily",
@@ -932,10 +1328,35 @@
     "date": "2024-09-16T17:08:54-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_xdl3h1f62",
+    "id": "app_store_1753650789464_qvufaufzk",
+    "author": "Meohmioh",
+    "rating": 5,
+    "review": "I have been using Mendi to get my brain strength up and I think it is working.",
+    "title": "I love Mendi",
+    "date": "2024-09-12T06:08:50-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_fod26eo5c",
+    "author": "audible books",
+    "rating": 1,
+    "review": "Excited to use this product but the app keeps crashing which is irritating. I note that another user flagged this issue a year ago and the issue remains.",
+    "title": "App crashes",
+    "date": "2024-09-10T03:17:06-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_rw4q6n3ns",
     "author": "Jan-jellybean",
     "rating": 5,
     "review": "Mendi has improved my focus. I have a husband that has dementia. I’m hoping he may benefit.",
@@ -943,10 +1364,11 @@
     "date": "2024-09-09T05:09:43-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_8h2tb5b34",
+    "id": "app_store_1753650789464_mvl1nz72l",
     "author": "Gabriel Salcedo Wines",
     "rating": 5,
     "review": "You can feel the changes very quickly. It's been about two weeks, and my mood has completely improved. I'm not entirely sure if I'm sleeping better, but I can definitely say that my interactions with people have become more positive. I highly recommend it!",
@@ -954,10 +1376,59 @@
     "date": "2024-09-05T17:45:00-07:00",
     "helpful": 0,
     "version": "2.2.4",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_vtha0qu3s",
+    "id": "app_store_1753650789464_z5ar1n7vj",
+    "author": "ramvl",
+    "rating": 4,
+    "review": "Also liebe Leser,\n\nich finde im Nachhinein, dass ich mir zu viel von diesem Gerät/ App versprochen habe, aber es ist auf jeden Fall ein effektiver Weg sein ein eigenes Potenzial in Konzentration auszuschöpfen und zu trainieren. Die Übungen sind meiner Meinung nach mit vielen Messfehlern/ Rauschen verbunden. Leider gibt es für den Hausgebrauch, soweit ich weiß, keine bessere Alternative als Mendi mit fnirs Technologie. Den Umgang mit sich selbst bezogen auf das Gerät musste ich erstmal mühselig erlernen, wenn mans aber drauf hat, dann ist es allem in einem eine tolle Sache!",
+    "title": "Mendi User seit einem Jahr",
+    "date": "2024-09-05T01:07:02-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_b76rkfl7q",
+    "author": "James W48",
+    "rating": 5,
+    "review": "I am really enjoying using Mendi every day. It is a big help with focus and general mind health. I also find it assists a lot with helping depression.\nHighly recommended",
+    "title": "Excellent",
+    "date": "2024-09-02T00:07:50-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_3cgqm2s1h",
+    "author": "Eddyanz",
+    "rating": 5,
+    "review": "It’s really good app and gadget. I want more games",
+    "title": "Sharp mind",
+    "date": "2024-08-30T04:42:43-07:00",
+    "helpful": 0,
+    "version": "2.2.4",
+    "platform": "app_store",
+    "country": "ar"
+  },
+  {
+    "id": "app_store_1753650789464_ios36zsgc",
+    "author": "Earthling💫",
+    "rating": 5,
+    "review": "Mendi helped me and is still helping me with self awareness and self control.",
+    "title": "Helpful tool!",
+    "date": "2024-08-26T02:08:07-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_5lqhf9ocz",
     "author": "AKoethe Reviews",
     "rating": 5,
     "review": "The mendi device and program are both wonderful and incredibly helpful in my neurological state of being.",
@@ -965,10 +1436,11 @@
     "date": "2024-08-21T15:21:39-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_nxrgcqefm",
+    "id": "app_store_1753650789464_2v0wqkqt4",
     "author": "savageballsackboo",
     "rating": 5,
     "review": "Love it",
@@ -976,10 +1448,11 @@
     "date": "2024-08-13T09:37:46-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_zvgvpx7xo",
+    "id": "app_store_1753650789464_sqpzvrw4m",
     "author": "charlottemilycrowe",
     "rating": 5,
     "review": "I have better focus than with traditional neurofeedback!!!",
@@ -987,10 +1460,11 @@
     "date": "2024-08-07T21:18:22-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ulvkydsmn",
+    "id": "app_store_1753650789464_y0c5a4sl2",
     "author": "1234tobryan",
     "rating": 3,
     "review": "So it helped me get back to mindfulness. It has already helped me identify new pre-flow creative state triggers. However after few months of use it is no longer helpful.\nI could get the same good score on two sessions. The first session I had high neutral activity, oxygen and focus. The second session I had poor scores in all these areas. So the score really only measures commitment to the app which is unhelpful for neurofeedback and brain training.",
@@ -998,10 +1472,11 @@
     "date": "2024-08-06T18:05:45-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_cqf0s10gi",
+    "id": "app_store_1753650789464_i4dextp0d",
     "author": "gsjdiciwjsbfiir",
     "rating": 4,
     "review": "Love my Mendi so far!! Using it as an alternative to in office treatment for my sleep disorder (makes me constantly tired, long sleep times) and adhd. One suggestion would be the ability to change the sound, the background image, or other visuals such as the ball you are rolling. I guess this could potentially lead to distraction, but some customization would be great",
@@ -1009,10 +1484,11 @@
     "date": "2024-08-01T08:43:09-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_4o05i439i",
+    "id": "app_store_1753650789464_h5k3pjr5s",
     "author": "_[wolrah]_",
     "rating": 5,
     "review": "The visual and audio feedback is excellent and helpful as I do yoga stretches",
@@ -1020,10 +1496,35 @@
     "date": "2024-07-30T14:05:53-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ftjrqgfqa",
+    "id": "app_store_1753650789464_a6eebd3xy",
+    "author": "Franc Si",
+    "rating": 3,
+    "review": "Love this app love this device. I can sense positive changes in the way I feel and the way I interact with the world. That may sound like a large statement but its actually bigger than that. Trying to get your act together? It starts by getting your brain together - Get a Mendi and get yourself together.",
+    "title": "Mendi is my mind adjudtment tool",
+    "date": "2024-07-30T02:46:36-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_q13tau4to",
+    "author": "Ädödökdkskg",
+    "rating": 5,
+    "review": "Mendi is today a part of my everyday routine, it helps me to focus more and sleep better!",
+    "title": "Long time user",
+    "date": "2024-07-28T13:52:31-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_558vchsor",
     "author": "Williamz34",
     "rating": 5,
     "review": "There is only one activity in this app, but it’s so well crafted that I really enjoy it. As an app developer myself I appreciate the attention to detail. The feedback provided by the app is really useful and is done in soothing way. I really like doing the activity and I believe it’s helping. Also, great job on the connectivity, the headband connects instantly without issue, which adds to the pleasure of using it.",
@@ -1031,10 +1532,11 @@
     "date": "2024-07-21T08:38:22-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_k36tvqgpc",
+    "id": "app_store_1753650789464_nw63jooxw",
     "author": "ironchickdana",
     "rating": 5,
     "review": "As a mental health professional and someone who has ADHD, I love 💕 this device. I have been recommending it to clients and friends. Send me brochures to hand out.",
@@ -1042,10 +1544,71 @@
     "date": "2024-07-21T06:07:34-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_pbhstcrlo",
+    "id": "app_store_1753650789464_v4g01gvm5",
+    "author": "AngelasShare",
+    "rating": 5,
+    "review": "My best buy ever? My brainfog is gone and my focus is more and more clear byvthe day- I’ve used my Mendi for 3 weeks now - and my ADHD is practically gone. Never happened before, on this level. Do yourself a favour, get a Mendi, train your brain and so feed some more bloodflow through it - and watch what happends. So grateful!!!!\nEdit. Have now done mendi training nearly every day since nov last year, and I feel more sharp than I have ever been.",
+    "title": "I can’t apreciate the results enough",
+    "date": "2024-07-20T14:44:05-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_wvdpwklrz",
+    "author": "Heavy User Bancas Digitales",
+    "rating": 5,
+    "review": "He ido sintiendo los cambios poco a poco, lo recomiendo",
+    "title": "Llevo 1 mes de gran experiencia",
+    "date": "2024-07-17T08:09:35-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "mx"
+  },
+  {
+    "id": "app_store_1753650789464_jlsq8gjkw",
+    "author": "HAppW2016",
+    "rating": 5,
+    "review": "It felt like a bit of an investment and takes time to get used to, but I believe it is worth it. Simple to use and very very effective. I recommend to anyone interested in better judgement, and self-control. Benefits seem to occur all over the place, I hope you get some too.",
+    "title": "Very helpful training device and app",
+    "date": "2024-07-15T04:55:48-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_jxp8vdcm8",
+    "author": "NaomiJapão",
+    "rating": 5,
+    "review": "Eu que sou uma pessoa muuuito agitada,sério eu consegui relaxar!",
+    "title": "Relaxante 100%",
+    "date": "2024-07-10T15:50:33-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "br"
+  },
+  {
+    "id": "app_store_1753650789464_6sfrjlzeo",
+    "author": "אבו דני",
+    "rating": 5,
+    "review": "מנדי עוזר לי מאד בכושר הריכוז ובמיקוד המחשבות והקשב. כמוכן בהרגשה הכללית, בתחושת האופטימיות. מאד מומלץ!",
+    "title": "שמחה לנדאו",
+    "date": "2024-07-09T23:43:07-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "il"
+  },
+  {
+    "id": "app_store_1753650789464_ws5birz97",
     "author": "Lagg on purpose",
     "rating": 3,
     "review": "I prefer that the app does not collect information. It would be great if the app could work offline without having to transmit or store my data.",
@@ -1053,10 +1616,23 @@
     "date": "2024-07-08T08:50:07-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_95spkkasu",
+    "id": "app_store_1753650789464_srrgf59y5",
+    "author": "Sdeath",
+    "rating": 5,
+    "review": "It is my brain gym. The benefits come from long term commitment, but it is worth it!",
+    "title": "Mendi for better focus and sharpness",
+    "date": "2024-06-25T12:11:59-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_5khl9f08a",
     "author": "So vast",
     "rating": 5,
     "review": "On the days that I do my exercises with Mendi in the morning, everything seems to work out better for me. I stay focused and concentrate and and productive. Thank you for this opportunity Mendi.",
@@ -1064,10 +1640,11 @@
     "date": "2024-06-25T09:59:50-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_jx251g9qq",
+    "id": "app_store_1753650789464_g47xfzze5",
     "author": "bobcool16",
     "rating": 5,
     "review": "I was so happy when my adhd stoped I cried",
@@ -1075,10 +1652,11 @@
     "date": "2024-06-24T06:09:37-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_2o1udhh0s",
+    "id": "app_store_1753650789464_q1rfc5llf",
     "author": "Mk3 gti",
     "rating": 5,
     "review": "It helps me go to sleep at night.And it the best",
@@ -1086,10 +1664,11 @@
     "date": "2024-06-20T20:48:23-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ap55xujik",
+    "id": "app_store_1753650789464_sghxc7qc6",
     "author": "LovedBoggleasakid",
     "rating": 5,
     "review": "This is just what I have been waiting for! My entire family uses this device to help with focus, mood and a brain injury! This is very similar to what we used in the past with a behavioral therapist",
@@ -1097,10 +1676,11 @@
     "date": "2024-06-19T12:10:26-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_gpuzdyxc9",
+    "id": "app_store_1753650789464_jubh4zyli",
     "author": "Wobblish",
     "rating": 5,
     "review": "Excellent device that has helped cultivate absorptive focus. The only issue is that it’s very sensitive to breath work or breath irregularities. \nThe app has an awesome breath timer during the start of the session, with haptic feedback - \n\nCould you offer a way to turn on the haptic breath timer during the session? This would help achieve consistent breathing :)",
@@ -1108,10 +1688,23 @@
     "date": "2024-06-18T07:50:47-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_gfvtu1ze0",
+    "id": "app_store_1753650789464_a0602dtpn",
+    "author": "BanYourDad",
+    "rating": 5,
+    "review": "Nice device and you really can feel progress",
+    "title": "Nice",
+    "date": "2024-06-16T07:23:48-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ua"
+  },
+  {
+    "id": "app_store_1753650789464_6tsu38tvj",
     "author": "Zeb099",
     "rating": 5,
     "review": "I’ve only been using it a short while and I can tell a difference in my focus and overall mental health. Thank you for creating this!",
@@ -1119,10 +1712,11 @@
     "date": "2024-06-14T10:09:13-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_qb5b7tcft",
+    "id": "app_store_1753650789464_9tj4em6fm",
     "author": "namor75",
     "rating": 5,
     "review": "Thanks for give me this opportunity the use this Mendy for me is especially because I work my mind better thanks again",
@@ -1130,10 +1724,11 @@
     "date": "2024-06-13T02:36:36-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_hlm7prmyz",
+    "id": "app_store_1753650789464_kspyenh49",
     "author": "Harrytheking22",
     "rating": 5,
     "review": "Hi I’m so happy Mendi was created I went through a lot of painful things in my life and Mendi helped me overcome those obstacles.",
@@ -1141,10 +1736,11 @@
     "date": "2024-06-11T17:20:15-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_nezu3tbob",
+    "id": "app_store_1753650789464_lt44vuxv3",
     "author": "KerryMc8",
     "rating": 5,
     "review": "Mendi is ridiculously easy to include in your daily self care activities. Can do 3 minutes, 15 minutes a day, you choose your time. More blood and oxygen going to your brain, how can you go wrong? Notice significantly less anxiety and nightmares while sleeping. Was able to sit and read a book for the first time in a while. It has been about a month of using. Really appreciate these inventors and their company & their commitment to keep it low cost.",
@@ -1152,10 +1748,11 @@
     "date": "2024-06-10T05:23:38-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ys6gkxhje",
+    "id": "app_store_1753650789464_0v0sk2ca9",
     "author": "DFR_1",
     "rating": 5,
     "review": "Wish I started early with this exercise.",
@@ -1163,10 +1760,23 @@
     "date": "2024-06-09T06:34:24-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lkwl6iuiq",
+    "id": "app_store_1753650789464_0tnhv39is",
+    "author": "Juanlu buenos",
+    "rating": 5,
+    "review": "Excelente el espacio entre el movimiento que se convierte en nubecita que se hace girar más rápido entre una cuesta y una rodada en valle y termina en un gozo suelto",
+    "title": "Experimentar",
+    "date": "2024-06-05T19:37:30-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "co"
+  },
+  {
+    "id": "app_store_1753650789464_z1u8go3pu",
     "author": "House of Berch",
     "rating": 5,
     "review": "I love knowing I am improving my brain function with just 10 minutes a day. I have my whole family doing Mendi. Including my teenagers to help them focus and counteract the negative impact of social media scrolling.",
@@ -1174,10 +1784,23 @@
     "date": "2024-05-23T07:36:08-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_qu9pl4yaa",
+    "id": "app_store_1753650789464_86wd0momq",
+    "author": "Coradabra",
+    "rating": 4,
+    "review": "I love the Mendi head band and doing the exercises. It really helps get the most out of meditation. \n\nI would love to see a few extra features on the app to help track progress like graphing of performance score, general score, peak neural activation, max control periods, total and average sessions times, etc all mapped over varying time periods. It would really bring this app to the next level for me.\n\nAt the moment, tracking performance is awkward and you can only look at a single session at a time and can’t see that progress over time.\n\nSome more creative and limited time badges, even monthly ones would be a nice addition too but not as important and the graphing.",
+    "title": "Great meditation tech",
+    "date": "2024-05-18T23:29:12-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_as7xzh42k",
     "author": "bruhCliNton",
     "rating": 5,
     "review": "Good game helps my brain a ton.🔥🔥🔥🔥🔥🔥 check some of it out soon on NBC",
@@ -1185,10 +1808,11 @@
     "date": "2024-05-14T06:17:52-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_d18bzgqap",
+    "id": "app_store_1753650789464_oumsv6b2w",
     "author": "Rhjaety",
     "rating": 5,
     "review": "The app is easy to use and is very helpful.",
@@ -1196,10 +1820,23 @@
     "date": "2024-05-11T07:52:48-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_vft2udrv8",
+    "id": "app_store_1753650789464_5r1blitr4",
+    "author": "Pokarlla",
+    "rating": 4,
+    "review": "I do love the app and I feel the benefits from regular sessions.\n\nHowever, I get disheartened when I lose my streak (it’s common for me to stay up past midnight, and the mendi is a part of my bedtime routine). Losing my streak sometimes makes it feel harder to start again from 0. \n\nPerhaps some sort of streak saver would work well for others like me, much like the ones that exist in other apps designed for daily practice.",
+    "title": "Streak Saver?",
+    "date": "2024-05-11T07:08:11-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_glk21vzcu",
     "author": "thinkbeyondyourself",
     "rating": 5,
     "review": "It works. It works better when I use it regularly.",
@@ -1207,10 +1844,11 @@
     "date": "2024-05-08T13:05:05-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lqmv0pvkz",
+    "id": "app_store_1753650789464_75718fn55",
     "author": "LVB55999",
     "rating": 3,
     "review": "The sound buttons only turn off but not back on. It’s frustrating",
@@ -1218,10 +1856,11 @@
     "date": "2024-05-04T21:10:03-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_k7rn5nyua",
+    "id": "app_store_1753650789464_yodhiv24l",
     "author": "Jkbc11",
     "rating": 5,
     "review": "I’ve been using Mendi for over a year now and find that when I skip it, that my day is just not the same level of mental performance and focus. It really does work, which is crazy! Feels like a super hero gadget for my mental wellness!",
@@ -1229,10 +1868,11 @@
     "date": "2024-04-11T02:58:40-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_kespz7xs8",
+    "id": "app_store_1753650789464_jd8cfa01w",
     "author": "Nfmfk",
     "rating": 5,
     "review": "I’ve been a user for a few years now. Since Kickstarter",
@@ -1240,10 +1880,23 @@
     "date": "2024-04-05T03:07:58-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_se3k75vxz",
+    "id": "app_store_1753650789464_b4lsm3jzc",
+    "author": "Malisha123",
+    "rating": 5,
+    "review": "I love the minimalistic look and feel of the product. The whole design and construction is of very high quality. More importantly the product does what it says on the box. Very easy to use and the app is easy to navigate. \nI would like to see more videos on the app on how people can improve and also see stats that are simple enough to understand and motivate me to keep growing and using the product.",
+    "title": "Great Product",
+    "date": "2024-03-31T21:03:01-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ae"
+  },
+  {
+    "id": "app_store_1753650789464_hjzuya22g",
     "author": "Uhihdh viscosity",
     "rating": 5,
     "review": "Nice",
@@ -1251,10 +1904,23 @@
     "date": "2024-03-30T17:40:16-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_sq8b2wden",
+    "id": "app_store_1753650789464_981rnkup2",
+    "author": "Markymarkrich",
+    "rating": 5,
+    "review": "I have been using the app for over 3 months now. It has became a habit and  I train everyday for 10 mins. I have found that I can focus on tasks easier and work. I find I can do a days work in three hours.",
+    "title": "Helps me focus",
+    "date": "2024-03-30T15:37:36-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_qixrrf0i6",
     "author": "arod0524",
     "rating": 5,
     "review": "Mendi has truly improved my mental health and life!",
@@ -1262,10 +1928,59 @@
     "date": "2024-03-28T04:54:27-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ibur17us1",
+    "id": "app_store_1753650789464_dbkhbs5yg",
+    "author": "MAC_DJD",
+    "rating": 5,
+    "review": "This device helps achieve more calmness",
+    "title": "Good experience",
+    "date": "2024-03-25T00:15:53-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_7emahqek9",
+    "author": "kaiiiijonessss",
+    "rating": 5,
+    "review": "R",
+    "title": "Review",
+    "date": "2024-03-24T23:04:45-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_yezkl64tb",
+    "author": "Maxö-XD",
+    "rating": 5,
+    "review": "Sehr nice",
+    "title": "Super",
+    "date": "2024-03-21T12:09:19-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_4o8zb6z5a",
+    "author": "kajso2",
+    "rating": 5,
+    "review": "Game changer",
+    "title": "Awesome",
+    "date": "2024-03-15T06:09:23-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "hr"
+  },
+  {
+    "id": "app_store_1753650789464_puqrkk1zx",
     "author": "reiffer1986",
     "rating": 5,
     "review": "If you’re looking to make the jump and play with neurofeedback this is a good gateway. Cost of entry is not very preventative and no subscription fee.",
@@ -1273,10 +1988,11 @@
     "date": "2024-03-09T13:33:57-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_l998keue3",
+    "id": "app_store_1753650789464_ml9zfl4ey",
     "author": "MoMan12345",
     "rating": 1,
     "review": "The device is absolute garbage! I tested it over a few days in a controlled environment and did back to back training session. The noise to signal ratio is massive. You can move your head or a slight raise in eyebrows is detected as a massive surge in neuronal activity! Have requested a return.",
@@ -1284,10 +2000,11 @@
     "date": "2024-03-08T21:21:29-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_qoux8vo4x",
+    "id": "app_store_1753650789464_k0khlgfx5",
     "author": "chinchilla_12",
     "rating": 5,
     "review": "I have been using for 3 months really starting to feel the progression I am staying calm helps me focus I have severe ADD it’s been helping really love it can’t wait to see where it all leads",
@@ -1295,10 +2012,11 @@
     "date": "2024-03-06T07:15:17-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7r3teezat",
+    "id": "app_store_1753650789464_63c9tkbyj",
     "author": "Shriner#2023",
     "rating": 5,
     "review": "App has been great. I have had no problems with it.",
@@ -1306,10 +2024,11 @@
     "date": "2024-02-25T05:13:04-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_6gqpxpnom",
+    "id": "app_store_1753650789464_mvdfycql1",
     "author": "Judydogdoc99",
     "rating": 5,
     "review": "I have struggled with attention deficit as long as I can remember. This app is an excellent way to track my attention patterns and variability every day. The app has a lot of great articles and videos to help the user understand neuro feedback, the Mendi device, and how our sleep, diet, and exercise affect our brain health. I highly recommend this app to anyone who is interested in exploring brain health. I’ve only been using the app for about a month, so I won’t know conclusively if it’s helping for another month or so, but I have seen a difference and a change in my ability to focus.",
@@ -1317,10 +2036,23 @@
     "date": "2024-02-25T04:48:39-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_q1u1scirw",
+    "id": "app_store_1753650789464_l805shki9",
+    "author": "synesthete0001",
+    "rating": 5,
+    "review": "10/10",
+    "title": "Amazing product!",
+    "date": "2024-02-22T20:30:48-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_cmot48hif",
     "author": "Flippyfel",
     "rating": 1,
     "review": "“Invalid database object” error. Please fix and I’ll update my review!",
@@ -1328,10 +2060,71 @@
     "date": "2024-02-21T17:33:38-07:00",
     "helpful": 0,
     "version": "2.2.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_imb1f3jp4",
+    "id": "app_store_1753650789464_glnykhymk",
+    "author": "Timja Mei",
+    "rating": 4,
+    "review": "Hej",
+    "title": "Får mycket bättre fokus i tex skolan!!SUPER BRA!!!",
+    "date": "2024-02-14T12:16:31-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_2zeeu3n6v",
+    "author": "kampcell",
+    "rating": 5,
+    "review": "user 5 years now. Its worth it! all there is to say! \nI brought first kit pretty expinsive when it just came out (pre ord) -  but the app got alot better with time.",
+    "title": "Enjoy",
+    "date": "2024-02-11T14:42:08-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_tw21g25ql",
+    "author": "Zambe1:3",
+    "rating": 5,
+    "review": "I have been using mendi daily now for 6 months and to be honest. This is the best app I have on my phone. Not only does it allow me have my me time, but I also really noticed how my performance in each are of life is. I am more productive than ever. I am more thoughtful and more there. I am less anxious and once I get anxious I know how to control it and still keep going. This is the most productive medicine to living a better life in all areas. I really recommend Mendi to all of you. I even bought a mendi to my family members.",
+    "title": "The best app on my phone",
+    "date": "2024-02-10T20:11:48-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_cozqirajp",
+    "author": "EnzoM2O11",
+    "rating": 4,
+    "review": "I am French not english",
+    "title": "French",
+    "date": "2024-02-05T22:34:32-07:00",
+    "helpful": 0,
+    "version": "2.2.3",
+    "platform": "app_store",
+    "country": "fr"
+  },
+  {
+    "id": "app_store_1753650789464_coxy3byp2",
+    "author": "Baris/Paix",
+    "rating": 5,
+    "review": "As far as I am concerned, I am getting better and better over time by using mendi. I specifically remommend it to use in the morning after being exposed to the sun for a while.",
+    "title": "My personal experience!",
+    "date": "2024-02-03T00:45:47-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_anqhz6ea5",
     "author": "Lukatronic",
     "rating": 5,
     "review": "The training game is deceptively simple, almost bare bones, but the real changes and challenges happen within! The headband is solid and has had no issues I'm aware of... I recommend this to anyone who wants to try biofeedback for the brain. The price for entry is a little high but the app has loads of info and good badges to keep it fun.",
@@ -1339,10 +2132,11 @@
     "date": "2024-01-30T19:23:02-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_5528qb6e4",
+    "id": "app_store_1753650789464_ff5ol4r7j",
     "author": "Nick Etsitty",
     "rating": 5,
     "review": "I have tried meditating many times over the years but couldn’t keep with it to really make it part of my daily routine.  This gave me the structure I lacked and the feedback helped me keep motivated.  I have not only kept Mendi up, I have recently been able to incorporate other forms of meditating too.  It all started with Mendi.",
@@ -1350,10 +2144,11 @@
     "date": "2024-01-29T06:52:24-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7gy991iw1",
+    "id": "app_store_1753650789464_dxzxfstpp",
     "author": "Josh Risky Jones",
     "rating": 5,
     "review": "Has really helped me get my uncontrolled epilepsy and medication resistant seizures to a manageable point where I’m not going to the hospital ER 3-4 times per month for grand mal episodes. It helped me improve my focus and get in touch with my emotions as well.",
@@ -1361,10 +2156,11 @@
     "date": "2024-01-28T10:55:59-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_w4e5iw0md",
+    "id": "app_store_1753650789464_dui4k87e7",
     "author": "Bakari889",
     "rating": 5,
     "review": "This app has improved a a lot with the last update. There is now a breath work feature before the training game. They added a mindset coaching pathway. Also I have not experienced anymore crashes. I’m using this on my work phone. The android version of this app is seriously behind the IOS edition.",
@@ -1372,10 +2168,35 @@
     "date": "2024-01-27T17:34:37-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_bfg94oxxm",
+    "id": "app_store_1753650789464_gu4sp0u2d",
+    "author": "amesbod",
+    "rating": 5,
+    "review": "I have been using the app and device for only 4 days I am already seeing improvements in my sleep and capacity to stay calm!!\n\nAfter a couple of months or use I feel more focused and calm. It’s now essential to my morning routine to set up my mindset for the day.",
+    "title": "Sleep already improved",
+    "date": "2024-01-24T12:22:38-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_p1uvsvyg0",
+    "author": "Miroark",
+    "rating": 3,
+    "review": "The app usually crashes twice before the session starts. It’s incredibly frustrating having to restart the app twice every day before the session. Othwerwise no problems with the app.",
+    "title": "Crashing too much",
+    "date": "2024-01-18T06:30:02-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "fi"
+  },
+  {
+    "id": "app_store_1753650789464_hzxcmyxcl",
     "author": "kam7459",
     "rating": 5,
     "review": "Mendlin.io has helped me.  I feel strong after a few sessions.",
@@ -1383,10 +2204,11 @@
     "date": "2024-01-13T20:46:46-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ovqjj1ro1",
+    "id": "app_store_1753650789464_1nszz2imr",
     "author": "Divine Goddess Mother",
     "rating": 5,
     "review": "I have ADHD, C-PTSD, and I often feel I am autistic. This tool and app have helped me to focus, feel calm, safely express emotions and I am beyond grateful. Everyone needs to utilize this!",
@@ -1394,10 +2216,47 @@
     "date": "2024-01-10T08:44:54-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_253oae4kl",
+    "id": "app_store_1753650789464_vsueywgdz",
+    "author": "yaelfili",
+    "rating": 5,
+    "review": "Very effective. More focused and smart when done.  Only one game is a little bit boring. More games and it's a 5 stars plus ;)",
+    "title": "Excellent app",
+    "date": "2024-01-10T03:14:40-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "uy"
+  },
+  {
+    "id": "app_store_1753650789464_qej9adfua",
+    "author": "María del Carpio",
+    "rating": 5,
+    "review": "Love it, and something I love to do everyday :)\nTwo things to improve on-\n1-Maybe like put streak savers or smth to keep streaks\n2- maybe one for iPad as well. Been doing this on my phone, but prefer if it was on my iPad \nThat’s all, but it’s an amazing app!\n-mystes",
+    "title": "Yes!",
+    "date": "2024-01-09T05:04:19-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_5ldfunrno",
+    "author": "Shogi72",
+    "rating": 5,
+    "review": "I just love it, it’s not just for programming my state of mind it’s also like a meditation 👌",
+    "title": "Amazing",
+    "date": "2024-01-06T00:34:16-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "kw"
+  },
+  {
+    "id": "app_store_1753650789464_1gxnw6zde",
     "author": "BuddhaMaitreya",
     "rating": 5,
     "review": "I use the Mendi daily. I appreciate its simple functions but would really appreciate the ability to do heart mind meditation.\nIt’s designed for it but not utilized .",
@@ -1405,10 +2264,11 @@
     "date": "2024-01-05T01:36:20-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_gplyku7no",
+    "id": "app_store_1753650789464_nxg2wni3c",
     "author": "Ddelgr",
     "rating": 4,
     "review": "I suffer from major depression, anxiety and recently been diagnosed with ADHD. I bought this band hoping it could help alleviate some of the stuck feelings I have each and everyday. I believe Mendi has been a positive addition to my routine, especially if I can get myself to stick with it. It’s very easy to just try it out and start and I have had no major issues with it. So far so good! Thank you for creating something that is within reach, especially in the neurofeedback world! \n\nSome things I do wish is seeing more data related to what my brain or blood flow may be doing. I’m a very data oriented person so, any data for me to observe and utilize would be beneficial. Also health kit syncing would be awesome. I’d love to be able to give a result set to a Dr. or Psychologist!",
@@ -1416,10 +2276,23 @@
     "date": "2024-01-02T04:24:00-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_zrxq5ph53",
+    "id": "app_store_1753650789464_59uv0vjz6",
+    "author": "Ad gurey",
+    "rating": 5,
+    "review": "Jag ser en utveckling i att det som tidigare triggade mig inte gör det lika intensivt längre. Det gör att jag får mer utrymme att omvärdera riktigt gamla sanningar om mig själv. Jag tänker att eftersom jag inte är lika investerad i att reagera i nutid möjliggör det en djupare bearbetning av gammalt missförhållanden som kommer upp till ytan. Alla borde ha en Mendi därför vi bär på sanningar om oss själv som vi hittade lösningar på utifrån en ännu inte utvecklad hjärna. \n🙏🙏🙏🙏🙏",
+    "title": "Mendi",
+    "date": "2023-12-30T09:16:45-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_68kfl20so",
     "author": "do better mendi",
     "rating": 1,
     "review": "This was recommended by an mlb psychologist . Doesn’t seem to hold up in terms of quality or support. The app is buggy to say the least.",
@@ -1427,10 +2300,11 @@
     "date": "2023-12-28T11:01:11-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0vu8gayoi",
+    "id": "app_store_1753650789464_dxabi1f1l",
     "author": "1guera",
     "rating": 5,
     "review": "I bought it for me my parents, my friends and my family that is how much I believe in this product!",
@@ -1438,10 +2312,35 @@
     "date": "2023-12-24T09:03:58-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_57sho81pj",
+    "id": "app_store_1753650789464_df6evy9vl",
+    "author": "cgh787",
+    "rating": 5,
+    "review": "Today was my 68th consecutive day practicing with Mendi and I seen already some amazing effects. My mood swings are gone, I almost don’t feel stress anymore in what used to be really stress triggering situations for me, my social media & news consumption has gone dramatically down, it just doesn’t feel stimulating anymore, before using Mendi I was an social media addict for years! Amazing product! Cheers to everyone who is involved in the making of this product. You are making the world a better place",
+    "title": "Life changing",
+    "date": "2023-12-23T10:16:52-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_bafue0xzf",
+    "author": "jer999",
+    "rating": 5,
+    "review": "Saved me from adhd ptsd, big improvement Thank you very much to all Mendi staff Congrats",
+    "title": "Change my life",
+    "date": "2023-12-22T01:19:25-07:00",
+    "helpful": 0,
+    "version": "2.2.2",
+    "platform": "app_store",
+    "country": "fr"
+  },
+  {
+    "id": "app_store_1753650789464_a3oegdwtw",
     "author": "Cyman 513",
     "rating": 5,
     "review": "Easy to follow and definitely makes a difference.",
@@ -1449,10 +2348,11 @@
     "date": "2023-12-20T05:53:14-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_7qzr87qjf",
+    "id": "app_store_1753650789464_nuw5f0f60",
     "author": "YippyChaiYay",
     "rating": 5,
     "review": "If nothing else, this device helps you train your positive thinking muscles and to let go and overcome your negative thinking patterns! When the ball starts to fall, your negative thinking really kicks in and this is a great tool to help notice when it does and to try different thoughts out. I’ve been using mendi for about one year now and I am convinced my day turns out better when I use mendi. Typically use it once a day for a 10min session. Using it is almost like an active meditation in that you seem to do better with a light concentration rather than willful concentration. When I try to “will” the ball up, it doesn’t seem to work to well. But when I focus on a specific spot on my body and relax my breathing, it seems to rise better. I dont know why that is or if it is unique to me. \nBut I like using mendi, and I like the “Journeys “ section they added. Winnerminds has some good meditations to go along with mendi. \nI recommend anyone getting it.",
@@ -1460,10 +2360,11 @@
     "date": "2023-12-19T11:46:15-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_6a0yu7501",
+    "id": "app_store_1753650789464_mxcx3zwcj",
     "author": "JMathhelpsyouwin",
     "rating": 5,
     "review": "Always struggled with keeping sustainable focus during meditation. Also great to get the feedback. Feel less relaxed than after meditation. Probably need 5 mins of interoceptive meditation also afterwards.. Love this thing!",
@@ -1471,10 +2372,11 @@
     "date": "2023-12-14T07:24:53-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_8qann7qbb",
+    "id": "app_store_1753650789464_fa27ipxx1",
     "author": "QQQQQZ",
     "rating": 4,
     "review": "I have an IPad Pro.  Large screen.  Totally would have loved to have put this on my iPad.  Hopefully, that will change.  \nI haven’t used it enough yet to really say if I like it or not.  I used it last night and then tonight, I forgot my phone downstairs so I thought, no biggie.  I can just put it on my iPad Pro.  It’s even better because of the screen size.  That was a fail.   I hope they can fix that.  \nI am excited to use this daily though.  I need help focusing.",
@@ -1482,10 +2384,11 @@
     "date": "2023-12-14T00:40:46-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_olq9ud6vy",
+    "id": "app_store_1753650789464_gfxz7gsrl",
     "author": "The pillZ",
     "rating": 5,
     "review": "So cool that we have home devices like this now. I think you could have better on boarding baked into the sessions when you start, I had to seek out how the positive reinforcement actually works and its explained in day 4 of a video series, but that info should be drip fed through the first few sessions because it helps you immensely.\n\nAfter I started trying to “feel happy” when ball goes up, and “feel bad” when ball goes down, thats what trains the subconscious to prefer better blood flow.\n\nThat part was missed, and took me 2 weeks to figure out as I was poking around and playing with the app.\n\nMy gf asked how does it work? I had no idea and couldn’t explain it to her… but now I can because I watched that video series.",
@@ -1493,10 +2396,11 @@
     "date": "2023-12-12T05:32:40-07:00",
     "helpful": 0,
     "version": "2.2.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_6y8hwipx6",
+    "id": "app_store_1753650789464_e8sgghn70",
     "author": "Hibaradaj",
     "rating": 5,
     "review": "Not entirely sure how it works, but I can feel the positive effects just after initial weeks or so. Thank you for an amazing swift app and great product overall!",
@@ -1504,10 +2408,59 @@
     "date": "2023-12-12T04:44:50-07:00",
     "helpful": 0,
     "version": "2.2.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lvuhtksmk",
+    "id": "app_store_1753650789464_g755o9mor",
+    "author": "A Ignot",
+    "rating": 5,
+    "review": "Invested in mendi Indiegogo campaign. Love the headset and how the app continues to provide more info and things to do. I’m really into the Winnerminds gym.",
+    "title": "Love Mendi",
+    "date": "2023-12-11T03:06:00-07:00",
+    "helpful": 0,
+    "version": "2.2.1",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_h9nxzno2d",
+    "author": "Mediterat",
+    "rating": 5,
+    "review": "Hjälper mig att meditera",
+    "title": "Meditation",
+    "date": "2023-12-10T10:34:02-07:00",
+    "helpful": 0,
+    "version": "2.2.1",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_123531k0i",
+    "author": "Another Joe",
+    "rating": 5,
+    "review": "Inwieweit Mendi tatsächlich das leisten kann, was die Werbung verspricht, kann ich nach zwei Wochen noch nicht beurteilen. Doch alleine die Tatsache, dass die App mich motiviert, jeden Tag zehn Minuten Zeit für mich zu nehmen und achtsam zu sein, macht Mendi lohnenswert. Und wenn dann später noch die erhöhte Konzentrationsleistung, Ausgeglichenheit und besserer Schlaf hinzu kommen, umso besser.",
+    "title": "Rundum zufrieden",
+    "date": "2023-12-07T02:24:36-07:00",
+    "helpful": 0,
+    "version": "2.2.1",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_5n0ftcp50",
+    "author": "Kismyrrrs",
+    "rating": 5,
+    "review": "Fantastic body trading",
+    "title": "Mendi",
+    "date": "2023-11-30T11:40:25-07:00",
+    "helpful": 0,
+    "version": "2.1.0",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_myrgeuksp",
     "author": "ShaTipRN",
     "rating": 5,
     "review": "It is a challenge to try to stay focused. But with Mendi I am seeing improvement since I first started. I can also see a difference in my score if I have been drinking  or I’m tired or sad.",
@@ -1515,10 +2468,59 @@
     "date": "2023-11-27T19:37:55-07:00",
     "helpful": 0,
     "version": "2.1.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_pjc7g5d7m",
+    "id": "app_store_1753650789464_npnq1n0na",
+    "author": "Jase-777",
+    "rating": 5,
+    "review": "Brilliant",
+    "title": "Helps focus",
+    "date": "2023-11-27T01:56:38-07:00",
+    "helpful": 0,
+    "version": "2.1.0",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_68bbpuhm6",
+    "author": "OSVBEN",
+    "rating": 5,
+    "review": "Been using it for a month 👍",
+    "title": "Love the system",
+    "date": "2023-11-24T05:41:24-07:00",
+    "helpful": 0,
+    "version": "2.1.0",
+    "platform": "app_store",
+    "country": "mx"
+  },
+  {
+    "id": "app_store_1753650789464_hq1482de4",
+    "author": "Pierre LeTrognon",
+    "rating": 5,
+    "review": "Die beste App. Ich benutze sie seit Jahren täglich",
+    "title": "Der Jungbrunnen fürs Hirn",
+    "date": "2023-11-22T22:24:55-07:00",
+    "helpful": 0,
+    "version": "2.0.2",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_n4n6ahkv5",
+    "author": "Janniydo",
+    "rating": 5,
+    "review": "Meget brugervenlig",
+    "title": "Brugervenlig",
+    "date": "2023-11-21T06:49:23-07:00",
+    "helpful": 0,
+    "version": "2.1.0",
+    "platform": "app_store",
+    "country": "dk"
+  },
+  {
+    "id": "app_store_1753650789464_er0aq9bxg",
     "author": "aasweet3",
     "rating": 5,
     "review": "We got the Mendi almost a year ago during Black Friday, we got a $100 discount which was great. I really like that the app is free and several people can use the same device without having to pay any additional fees for subscriptions. At first I was spotty with my Mendi practice but as I have become more consistent I have noticed greater improvement with my overall scores. Beyond the scores, I am an adult male with ADHD and have found that my mood has improved as well as my ability to focus on everyday tasks. I would recommend the Mendi for anyone who has a desire to improve their mental health. I would love to see Mendi introduce more games so there is a variety in the brain training. It would also be  cool to see more statistics to track improvement over time.",
@@ -1526,10 +2528,11 @@
     "date": "2023-11-20T20:05:52-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_la6mp4lj5",
+    "id": "app_store_1753650789464_g8pvg70rz",
     "author": "AlphaMike1730",
     "rating": 5,
     "review": "Great app for all.",
@@ -1537,10 +2540,11 @@
     "date": "2023-11-19T02:58:41-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_2j5x3g1t0",
+    "id": "app_store_1753650789464_wph0j9fs2",
     "author": "AAR NYC",
     "rating": 5,
     "review": "This is an amazing neuro feedback app that has been very helpful in my everyday life.",
@@ -1548,10 +2552,11 @@
     "date": "2023-11-17T00:47:03-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_u7w69qnw6",
+    "id": "app_store_1753650789464_17uvtn2pc",
     "author": "amonof4",
     "rating": 5,
     "review": "I really appreciate the simplicity of Mendi yet the profound changes it can make.  Also, the design is very durable.  The value is fantastic!  Thank you!  Keep up the great work!",
@@ -1559,10 +2564,23 @@
     "date": "2023-11-12T18:18:38-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_1xhzjotso",
+    "id": "app_store_1753650789464_uopw8tg56",
+    "author": "Reese9846",
+    "rating": 4,
+    "review": "Ich benutze die App jeden Morgen und es hilft mir. Das ch habe es direkt als Teil meiner morgenroutine eingebaut. \n\nEine Verbesserung die ich mir wünsche würde wäre die Anzeige von absoluten Werten. \n\nSo dass die Baseline im Werten angegeben wird. So erhält man einen Anhaltspunkt wie aktiv meine Gehirn schon war.  \n\nIch gebe 4,6/5 Sterne",
+    "title": "Sehr gute App",
+    "date": "2023-11-11T02:17:04-07:00",
+    "helpful": 0,
+    "version": "2.0.2",
+    "platform": "app_store",
+    "country": "de"
+  },
+  {
+    "id": "app_store_1753650789464_mlo99c1q6",
     "author": "Functional Neurologist",
     "rating": 5,
     "review": "I use Mendi and I recommend it to my patients.",
@@ -1570,10 +2588,11 @@
     "date": "2023-11-09T16:11:22-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_l1egkrvxr",
+    "id": "app_store_1753650789464_8inkp8cur",
     "author": "Rosyc11",
     "rating": 5,
     "review": "I have loved starting my day with a Mendi session. I am a 3rd grade teacher and anything that can help me calm and support my mind is important to me. I love that Breathwork and reflection have added. That quick check in has really enhanced my Mendi practice.",
@@ -1581,10 +2600,11 @@
     "date": "2023-11-09T06:29:18-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_sy3kqefys",
+    "id": "app_store_1753650789464_fm90g3mwz",
     "author": "Dont.Be.Deuby",
     "rating": 5,
     "review": "100% worth it. App keeps improving but not as much as my brain training and focus. The Mendi effect is real. I like the bonus meditations and the new breath work. Just 10 minutes a day and you will notice a difference after a week or so. My 8 years has been doing this and it’s been great in helping train his mind to focus and pay attention. Funny thing is he thinks he is playing a game. This is cool!",
@@ -1592,10 +2612,23 @@
     "date": "2023-11-06T14:44:42-07:00",
     "helpful": 0,
     "version": "2.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0vete039d",
+    "id": "app_store_1753650789464_ivgncu1e6",
+    "author": "MegaGnome2000",
+    "rating": 5,
+    "review": "It would be good, if there was an option for 30 min sessions. Which is the norm in neurofeedback clinics and is how I used to do nIR HEG and pIR HEG.",
+    "title": "Awesome app",
+    "date": "2023-11-06T04:43:34-07:00",
+    "helpful": 0,
+    "version": "2.0.2",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_1pd6h9kpa",
     "author": "Danmor321",
     "rating": 5,
     "review": "This is incredible , it has impacted me in deep ways . I can definitely see how it will have a profound impact on who ever uses it and eventually in human life as a whole",
@@ -1603,10 +2636,11 @@
     "date": "2023-11-03T02:18:19-07:00",
     "helpful": 0,
     "version": "2.0.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_1gpfzsh45",
+    "id": "app_store_1753650789464_i2jzqrnth",
     "author": "Gracesky11004",
     "rating": 5,
     "review": "I love this product. I got mendi to help improve my concentration. I use it everyday as part of my morning routine. Within two weeks I noticed that my focused improved. I highly recommend this product to anyone struggling with concentration issues! It’s a game changer. I also love that the app comes with informative videos that explain how mendi works on the brain.",
@@ -1614,10 +2648,35 @@
     "date": "2023-11-02T09:00:37-07:00",
     "helpful": 0,
     "version": "2.0.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_v3viimdre",
+    "id": "app_store_1753650789464_zbbdt8u1c",
+    "author": "Roddersnzuk",
+    "rating": 5,
+    "review": "Great device and the application is getting better looks cleaner now and I really enjoy my sessions with Mendi and the application works well for what it is aiming to do",
+    "title": "Very Helpful",
+    "date": "2023-10-30T00:07:39-07:00",
+    "helpful": 0,
+    "version": "2.0.1",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_6u3261s8j",
+    "author": "nd_fredpinto",
+    "rating": 5,
+    "review": "Modern life meditation guide",
+    "title": "Meaningful app & device",
+    "date": "2023-10-25T23:03:44-07:00",
+    "helpful": 0,
+    "version": "2.0.1",
+    "platform": "app_store",
+    "country": "dk"
+  },
+  {
+    "id": "app_store_1753650789464_wi72cdsdf",
     "author": "whizdoms",
     "rating": 5,
     "review": "When I bought the Mendi, I told myself that i couldn’t buy one more thing, unless I was going to use it. My new friend for life.\n\nSince my dad had dementia, and I’ve been experiencing signs of it, I wanted to do everything I could to retrain my brain and give my brain the best opportunity of living out its best life for the remaining years that I have.\n\nI’m still very new to Mendi, but I already feel a difference in how I sense  how I feel when my over analytical thinking mind begins to take over. \n\nMendi is definitely my new friend for life and I look forward to many new journeys ahead!",
@@ -1625,10 +2684,47 @@
     "date": "2023-10-23T07:15:46-07:00",
     "helpful": 0,
     "version": "2.0.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ihxxoyvya",
+    "id": "app_store_1753650789464_x8v0xm0mz",
+    "author": "AndrewWilmot007",
+    "rating": 5,
+    "review": "Love the simplicity and required discipline to start my days. Over the past two months the Mendi has been part of my morning routine after waking up - that is after Wim Hof breathing and the cold immersion tub, the ten minutes of mind focus provides a strong foundation for my morning work effort and calms my mind for sustained high performance critical thinking.",
+    "title": "Helpful start to supercharge the day",
+    "date": "2023-10-22T22:04:36-07:00",
+    "helpful": 0,
+    "version": "2.0.1",
+    "platform": "app_store",
+    "country": "qa"
+  },
+  {
+    "id": "app_store_1753650789464_cocs4pets",
+    "author": "Johandahl27",
+    "rating": 5,
+    "review": "I have the same problem as Stefan_E",
+    "title": "Problem with the app",
+    "date": "2023-10-20T21:02:15-07:00",
+    "helpful": 0,
+    "version": "2.0.1",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_b9dyjomsm",
+    "author": "keen_listener",
+    "rating": 5,
+    "review": "The app together with the device is changing the way we approach concentration in our family. We are looking forward to the next few months of training to see how it will change our family’s lives. So grateful that this type of technology exists at the consumer level! Give it a try and you won’t regret it. Thanks!",
+    "title": "Amazing!",
+    "date": "2023-10-14T18:14:57-07:00",
+    "helpful": 0,
+    "version": "1.28.1",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_4inoleh2r",
     "author": "ttsiege",
     "rating": 5,
     "review": "Really helps me stay centered and calm",
@@ -1636,10 +2732,23 @@
     "date": "2023-10-08T07:59:01-07:00",
     "helpful": 0,
     "version": "1.28.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_096yb8wts",
+    "id": "app_store_1753650789464_rdzo6v49m",
+    "author": "Juni691234566",
+    "rating": 5,
+    "review": "Love the empowerment to be able to strengthen my brain by myself",
+    "title": "Amazing",
+    "date": "2023-09-25T07:15:18-07:00",
+    "helpful": 0,
+    "version": "1.27.3",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_f2934t3mq",
     "author": "Mindfulgirl1111",
     "rating": 5,
     "review": "This app is amazing, it has helped my anxiety and throught/response patterns. Helps me to sleep and I’m my kid loves it too!",
@@ -1647,10 +2756,23 @@
     "date": "2023-09-04T07:50:23-07:00",
     "helpful": 0,
     "version": "1.27.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_nfsu8j1nr",
+    "id": "app_store_1753650789464_d82tovkti",
+    "author": "RitonTpe",
+    "rating": 3,
+    "review": "Great expected that today I cannot login, I need to re register?\nThey update the app and create a new issue",
+    "title": "Something wrong",
+    "date": "2023-08-29T04:47:15-07:00",
+    "helpful": 0,
+    "version": "1.27.3",
+    "platform": "app_store",
+    "country": "be"
+  },
+  {
+    "id": "app_store_1753650789464_jhev83ju2",
     "author": "Guinness71",
     "rating": 1,
     "review": "Doesn’t work a few months after purchase. Not much response from customer service. They might be too busy rolling in all the money they have made. Maybe try a mindfulness app instead",
@@ -1658,10 +2780,23 @@
     "date": "2023-08-22T07:39:34-07:00",
     "helpful": 0,
     "version": "1.27.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rg7grotsg",
+    "id": "app_store_1753650789464_163mpngof",
+    "author": "nomemory2",
+    "rating": 3,
+    "review": "Since a few days the app stops after using the start button on my iphone. As an alternative I also installed the app on my samsung and here it crashes after at first getting stuck.",
+    "title": "App not working anymore",
+    "date": "2023-06-30T07:39:22-07:00",
+    "helpful": 0,
+    "version": "1.26.3",
+    "platform": "app_store",
+    "country": "nl"
+  },
+  {
+    "id": "app_store_1753650789464_2mq0rsbnq",
     "author": "Vibing",
     "rating": 2,
     "review": "Before the update the app was working; however since the new update the app crashes right before training and need to restart which is very annoying. Please fix the crashing issue.",
@@ -1669,10 +2804,23 @@
     "date": "2023-06-27T08:25:50-07:00",
     "helpful": 0,
     "version": "1.26.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rax8p4noh",
+    "id": "app_store_1753650789464_2zz4fyk6c",
+    "author": "Pollyanna42",
+    "rating": 1,
+    "review": "I used this for about 10 days and began to feel very mentally and emotionally unwell. I stopped and after a couple of weeks was a lot better. (It’s unusual for me to feel like this). I had another go on it yesterday, and within hours, I was feeling unwell again, like before, and did not sleep to boot. I will never use it again.",
+    "title": "Making me feel ill",
+    "date": "2023-06-25T02:09:50-07:00",
+    "helpful": 0,
+    "version": "1.26.3",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_8p7y37k4t",
     "author": "EaganRackley",
     "rating": 1,
     "review": "Crashes every time I use it after the update and there doesn’t seem to be a way to go back :( Now my Mendi is just a very expensive pape weight - except not even a very good one because it’s not that heavy :/",
@@ -1680,10 +2828,11 @@
     "date": "2023-06-21T20:30:10-07:00",
     "helpful": 0,
     "version": "1.26.3",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_gttdfinhm",
+    "id": "app_store_1753650789464_3ujf5b93j",
     "author": "Atrianata",
     "rating": 1,
     "review": "Does not starts and only show context and history of the previous activity. No way to fix it",
@@ -1691,10 +2840,11 @@
     "date": "2023-06-03T21:49:15-07:00",
     "helpful": 0,
     "version": "1.26.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rxyhxef3u",
+    "id": "app_store_1753650789464_0j641t0cl",
     "author": "Dr. Murican",
     "rating": 2,
     "review": "There is no variation to the training. So even just after a few days of using it, it gets boring and I zone out. Also, I was just doing a session and somebody in the background started talking about what the mendi score is toward the of it and then the app froze and the 10+ minutes of training did not complete and got stuck on “loading”. Also, I am considering getting a refund because the device doesn’t seem to get a correct signal from my head half the time so then you see tremendous falls of 20-30% without me being able to do anything about it… until the sensors catch a signal again. I think this product is simply not ready for customers. The sensors/ system need to be better and the app as well needs debugging and much more variety to the training to keep the customer engaged. I am disappointed.",
@@ -1702,10 +2852,47 @@
     "date": "2023-06-03T12:00:27-07:00",
     "helpful": 0,
     "version": "1.26.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_awqnh673o",
+    "id": "app_store_1753650789464_glxz48kub",
+    "author": "anUser23",
+    "rating": 2,
+    "review": "Updated the app and the whole training history was gone",
+    "title": "Where is my training history?",
+    "date": "2023-05-28T11:33:56-07:00",
+    "helpful": 0,
+    "version": "1.26.0",
+    "platform": "app_store",
+    "country": "fi"
+  },
+  {
+    "id": "app_store_1753650789464_n19jbs8hs",
+    "author": "KreeKickers",
+    "rating": 4,
+    "review": "I have been using the Mendi app and headband for about a year now. I am starting to see improvements in multiple areas.\n\nI would like to see the app expanded with more features and opportunities to learn about the brain in the future.\n\nThe app runs perfectly smoothly for myself.",
+    "title": "A Good Product",
+    "date": "2023-03-13T06:56:29-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_dazbg5yr8",
+    "author": "Siloe66",
+    "rating": 1,
+    "review": "Start botón  does not apear have to reinstall app Évery time i want to use it",
+    "title": "Start boton",
+    "date": "2023-03-08T08:13:59-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "gt"
+  },
+  {
+    "id": "app_store_1753650789464_t3qa4xoxi",
     "author": "V~!",
     "rating": 1,
     "review": "I’m very skeptical about this concept. Application works well and didn’t crash at all, however the band works equally well when worn on my head or over my knee or over my pillow.\nActually it gave better score when worn over the pillow. Customer service response was quick and full of explanations why it’s ok. Sorry, not buying it. My Garmin watch with optical sensor doesn’t read HR when removed from my wrist.",
@@ -1713,10 +2900,11 @@
     "date": "2023-02-23T08:54:53-07:00",
     "helpful": 0,
     "version": "1.24.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_w5wk88vj8",
+    "id": "app_store_1753650789464_op80uofgo",
     "author": "Carlon Arrington",
     "rating": 1,
     "review": "Not good for much. I regret spending money on it.",
@@ -1724,10 +2912,59 @@
     "date": "2023-02-20T23:40:39-07:00",
     "helpful": 0,
     "version": "1.24.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_27263exhu",
+    "id": "app_store_1753650789464_vmbeeso0l",
+    "author": "soulcalibrehd",
+    "rating": 5,
+    "review": "Foarte frumos si bun",
+    "title": "Recenzie",
+    "date": "2023-02-13T01:34:52-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "ro"
+  },
+  {
+    "id": "app_store_1753650789464_q567bwwxn",
+    "author": "Robe 99",
+    "rating": 2,
+    "review": "Extensive device. Feedback Scores are intransparent.",
+    "title": "Do Not See any Benefits",
+    "date": "2023-02-03T04:04:11-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_p9v6k6ci1",
+    "author": "Ride Hanna",
+    "rating": 1,
+    "review": "I open the App to train and no option listed to get the session started so I have to delete App in order for the options to show up, and of course In deleting all my data ,… frustrating.",
+    "title": "Not great.",
+    "date": "2023-01-25T07:13:36-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_6o1das5fn",
+    "author": "mdvegar",
+    "rating": 1,
+    "review": "The developers need to improve the quality of the app, it continuously crashes which means I have to constantly delete & reinstall. Spoils the experience of enjoying the device.",
+    "title": "App keeps Crashing",
+    "date": "2023-01-25T01:28:02-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_1n454mkfu",
     "author": "WilliamLewis96",
     "rating": 4,
     "review": "I recently bought a Mendi headset, I think this app works really well. One item I wish the app would do, is write mindfulness data to HealthKit, so your time shows up within the health app.",
@@ -1735,10 +2972,11 @@
     "date": "2023-01-23T08:23:30-07:00",
     "helpful": 0,
     "version": "1.24.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_da9r1krbj",
+    "id": "app_store_1753650789464_znrjvwazu",
     "author": "Brownian Motion",
     "rating": 4,
     "review": "I got the Mendi about 10 days ago and I’ve been using it every day. I’m still figuring out how to control the ball - clearly that requires some mental experimentation. I believe I’ve made progress and almost all days, my assessment of the session matches, qualitatively, my Mendi score. There were some surprises tho. On my first session this afternoon, I was thinking about something stressful at work and became very agitated. I looked at the ball and, during that time, it was gyrating wildly, going steeply up for a little bit and then falling steeply into the depths. It was like the ball was riding needles up and down! I fully expected my Mendi session to have a low score, but to my surprise, I got my highest score ever at 90 and my highest ever area under the graph! That was puzzling and a little disturbing because I did not expect, or want, my scores to be high when I was agitated and my frontal lobe completely out of my conscious control! Not sure if this is an actionable item but i wanted to put it out there in the hope that it’s a useful tidbit. Couple fixes and changes I’d like: Id like to be able to see all my numbers and plots for a session even if it isn’t the best session of the day. Right now it only gives you hints of what your numbers could be by showing you part of each number, with no way of clicking on them and seeing them fully! The second is that the app has frozen on me a couple of times after using it, when I try to scroll up and down.",
@@ -1746,10 +2984,11 @@
     "date": "2023-01-15T20:47:43-07:00",
     "helpful": 0,
     "version": "1.24.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_u5m3s1ajc",
+    "id": "app_store_1753650789464_vmi3ssp5m",
     "author": "Flyboy Instructor",
     "rating": 1,
     "review": "This app is hopeless. It is so user unfriendly. \nI can’t run new sessions. I can’t up the sessions.\nI am returning the device because of this hopeless app",
@@ -1757,10 +2996,35 @@
     "date": "2023-01-01T19:11:13-07:00",
     "helpful": 0,
     "version": "1.24.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_w6zv0tgg2",
+    "id": "app_store_1753650789464_s80wbi2zz",
+    "author": "OllieRott",
+    "rating": 4,
+    "review": "The new start training button feels more intuitive but… If I’m not wrong, it is not visible any more after I have trained for one session. It appears again once a new day starts. This way I don’t get the ability to do a second or third session later on the same day. \nFor the rest the app looks and works great.",
+    "title": "Oliver",
+    "date": "2022-12-30T09:38:32-07:00",
+    "helpful": 0,
+    "version": "1.24.0",
+    "platform": "app_store",
+    "country": "nl"
+  },
+  {
+    "id": "app_store_1753650789464_31d640e37",
+    "author": "iWhymy",
+    "rating": 1,
+    "review": "There is high chance that if you reading this you have already fallen in their trap and even if you try to come out with their 30 days money back promise you will come to know there catch! There is Very little you can do with the app. It has only one game which work with its device and it also has a lag which makes it harder to really work with this brain feedback phenomenon. There score system is buggy. Inshort when they say you are doing good even if not in real you have to believe so and same thing other way around. No apple health support as well.",
+    "title": "Super buggy and laggy",
+    "date": "2022-12-17T14:26:03-07:00",
+    "helpful": 0,
+    "version": "1.23.2",
+    "platform": "app_store",
+    "country": "ca"
+  },
+  {
+    "id": "app_store_1753650789464_m7x4bgg89",
     "author": "Uptownbrownny",
     "rating": 2,
     "review": "Mendi has helped me with my focus and think it does what it claims.  But I have to say that their customer service is the worst. It matters because the software is buggy. It registers the wrong day, doesn’t recognize that I’ve completed a session, and some of the scores appear random—the exact same scores on the three metrics but different scores overall. I want to be a fan and talk it up, but the customer service department has gone out of their way to make that impossible.",
@@ -1768,10 +3032,11 @@
     "date": "2022-12-13T17:43:32-07:00",
     "helpful": 0,
     "version": "1.23.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_5d6q7ay78",
+    "id": "app_store_1753650789464_ppoyrdd7q",
     "author": "NF-Guy",
     "rating": 1,
     "review": "I’m a Ph.D pyschologist very familiar with neurofeedback and I was excited to try this device. Unfortunately I could not get it to work on my iPhone 12. It connected to the app but the sensors never turned on once the headband was in place. Very disappointed. NF-Guy",
@@ -1779,10 +3044,23 @@
     "date": "2022-12-06T09:53:01-07:00",
     "helpful": 0,
     "version": "1.23.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_d1y0gduka",
+    "id": "app_store_1753650789464_jnpjt1mdr",
+    "author": "AzharElmiza",
+    "rating": 1,
+    "review": "New update won’t record your latest training result if you trained more than one session a day.",
+    "title": "Did not record",
+    "date": "2022-11-11T13:54:21-07:00",
+    "helpful": 0,
+    "version": "1.23.2",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_73lhmig0z",
     "author": "SharkRepair",
     "rating": 3,
     "review": "Hello! Thank you for your continued work on the app. I look forward to seeing it expand with more content and different games. I have a couple issues and suggestions:\n\nI dislike the chime tone. It reminds me of casinos and I end up turning my volume all the way off to avoid it. A variety of tones to choose from or the option to turn off the chimes while still having the music would be great.\nThe visual display that comes up after a session rarely displays the Mendi score at this point. I have the most recent update. I usually receive a message instead to do a session or swipe to see my history. I can still see the individual metrics below, but the inconsistency and not knowing how to compare with previous results makes me less enthusiastic to use the app and has led to gaps in training. It seems to post the results twice, actually now that I look at it again, but the date is inaccurate. I trained today but not yesterday, however today’s results are displayed with both yesterday’s and today’s dates, yesterday having the visual Mendi score and today having the message to do a session or swipe left",
@@ -1790,10 +3068,11 @@
     "date": "2022-10-09T16:11:09-07:00",
     "helpful": 0,
     "version": "1.22.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_8o5c4qo4d",
+    "id": "app_store_1753650789464_sthkq84ml",
     "author": "The1pictureguy",
     "rating": 3,
     "review": "I received my Mendi 2-12-22 and I cannot get past the email page in app. It would not send an email either. I requested a resend multiple times. I Checked junk section also, in case it got sent there. Nothing!!! Please fix now!!!!\n\nUpdate: We finally got the app to work. I’m not sure how since it was so long ago.  I actually forgot to come update this review.  Working on using it regularly so we can see how it benefits us.",
@@ -1801,10 +3080,35 @@
     "date": "2022-09-07T09:28:46-07:00",
     "helpful": 0,
     "version": "1.20.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_c7i7vr39l",
+    "id": "app_store_1753650789464_2rvy2ysms",
+    "author": "anicknamenoonehaves",
+    "rating": 3,
+    "review": "After last update, app crash all the time i tries to go to Journal",
+    "title": "Cant use the app",
+    "date": "2022-07-18T09:49:56-07:00",
+    "helpful": 0,
+    "version": "1.20.1",
+    "platform": "app_store",
+    "country": "cl"
+  },
+  {
+    "id": "app_store_1753650789464_ltucxy2my",
+    "author": "markwils",
+    "rating": 2,
+    "review": "After achieving some notable success in training my brain with this app, I have noticed a recent update has slowed the performance of starting and ending a session. Now I find I can’t even start a session as the app freezes on the screen requesting I rotate my screen to start. No matter what I do with the screen orientation I can’t get the session to start.  :-(",
+    "title": "App performs worse with each new release.",
+    "date": "2022-07-15T17:21:58-07:00",
+    "helpful": 0,
+    "version": "1.20.1",
+    "platform": "app_store",
+    "country": "au"
+  },
+  {
+    "id": "app_store_1753650789464_58stwt3vg",
     "author": "composingkeys",
     "rating": 2,
     "review": "Mendi doesn’t have enough variety. It is currently only the ball game and one music piece. For something you are encouraged to do at least 3 times a week 5 minutes a session, I wish there was more. For the price, I feel this hurts the experience and desire to use it.",
@@ -1812,10 +3116,23 @@
     "date": "2022-07-10T21:28:55-07:00",
     "helpful": 0,
     "version": "1.20.1",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_evw7xns4j",
+    "id": "app_store_1753650789464_wa1j28tg2",
+    "author": "The_Silver_Fox",
+    "rating": 5,
+    "review": "The app is improving constantly which is very exciting and great to see. I do however wish there were more games/challenges to mix it up a bit.",
+    "title": "Constant improvements",
+    "date": "2022-06-18T06:40:34-07:00",
+    "helpful": 0,
+    "version": "1.19.0",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_svoqjtxs5",
     "author": "Pbxs",
     "rating": 5,
     "review": "But effective — love the device itself, it’s designed so well.  App isn’t feature heavy, but it’s maturing; awesome product",
@@ -1823,10 +3140,11 @@
     "date": "2022-05-25T10:00:22-07:00",
     "helpful": 0,
     "version": "1.19.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_0x4g28zo7",
+    "id": "app_store_1753650789464_te09426p8",
     "author": "MarqR",
     "rating": 4,
     "review": "Update:  I contacted support and was told that the delays on some screens was due to backend server load issues that are being addressed. This does seem to explain the issues I am/was seeing:\n\n1) Initial screen when starting a session - the “button” for selecting me vs a guest is slow to fill in with my name and let me start a session. \n\n2) “Rotate to landscape” prompt is slow to respond after rotation and then load the start of a session. \n\n3) The end of a session appears hung, but does eventually load the concluding screens of a session. \n\nIt would seem to make sense to display some sort of animation at these junctures that shows the user that the app is still running, and not broken. Perhaps some sort of background asynchronous communication/loading could also make the app appear more responsive. \n\nAll told, I’m happy with the app and the Mendi headband device. I hope more customization of the session experience will be added in the future. \n\nIt would be nice to have additional choices of background music, to play your own music, or turn off music. It might be nice to have a more beautiful background than the current sky/color gradient, such as actual natural imagery: sky, forest, or a coastal landscape. I wonder if some other changing focus image other than the spinning ball, like a fountain/jet of water, a point or sphere of light, or perhaps something purely aural - a fluctuating sound such a variable frequency filter over brown/white/pink noise. \n\nI’m still working with the system and look forward to getting better at using it, and hope the user experience will be improved/made more customizable. \n\n============\nThe Mendi app seems to be working well, but at the end of a training session the app hangs on a blank (colored, but no UI) screen. I need to go to the iOS app switcher, swipe it away, and restart it. The app shows that my session activity is recorded, but this clearly isn’t a good user experience. I’m doing a 10 minute session, running iOS 15.5, on an iPhone 13 Pro Max with 256 GB storage. The Mendi app version is v1.19.0.2205101542. Device model V4, Hardware version r2.1a-ty1, Firmware 1.0.2",
@@ -1834,10 +3152,11 @@
     "date": "2022-05-24T14:36:31-07:00",
     "helpful": 0,
     "version": "1.19.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_rfu3ol1p8",
+    "id": "app_store_1753650789464_0q6z3v48q",
     "author": "Bjorn E.H",
     "rating": 3,
     "review": "I have had  Mendi for a week now and here is my review. \n\nThe device works well and I like it so far, very easy to use with a awesome design. \n\nHowever, the app has issues with the login page, I need to login several times to get in, it also takes a long time loading to get your results after a session. \n\nI hope they can fix this soon!",
@@ -1845,10 +3164,11 @@
     "date": "2022-05-21T15:20:28-07:00",
     "helpful": 0,
     "version": "1.19.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_ptpdny7si",
+    "id": "app_store_1753650789464_9japiwbrm",
     "author": "ssilfan",
     "rating": 1,
     "review": "App has gotten completely glitchy. Have to click buttons multiple times to get to training session (get dropped back several times). Just completed a training session and after finishing it just go back to starting a new one without recording results. Apart from that there is the problem that the measurement method constantly seems to change. Whenever I I think I get a hold of how to control the ball, the criteria seem to change with a software update and I am starting from square zero again. Very inconsistent and frustrating. Almost ready to give up on the device.",
@@ -1856,10 +3176,35 @@
     "date": "2022-05-18T13:53:55-07:00",
     "helpful": 0,
     "version": "1.19.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_lw4k0hw1f",
+    "id": "app_store_1753650789464_8f5zuevft",
+    "author": "Stefan_E",
+    "rating": 4,
+    "review": "I have used my mendi for around 10 days (once or sometimes twice a day) and the app has already become very slow. End screen that shows result from current session does not show anymore even, have to kill the app to get past what is now an empty purple screen. Luckily the results are still stored.\n\nPlease fix performance. I don’t want to end up having to reinstall every week, losing the data, just to have it less sluggish.\n\nOther than that i’d say the concept works! Placebo or not but i really feel that i can control the ball better and better, and feeling better also, especially after a good session",
+    "title": "Very slow after some use",
+    "date": "2022-05-13T22:45:19-07:00",
+    "helpful": 0,
+    "version": "1.19.0",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_xtf5n8fll",
+    "author": "Newnicknamesarehardtofind",
+    "rating": 1,
+    "review": "Login, login, login, always these f**ing logins. Down the garbage bin this Mendi goes.",
+    "title": "Login",
+    "date": "2022-05-06T07:49:46-07:00",
+    "helpful": 0,
+    "version": "1.18.0",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_f0dht22we",
     "author": "Lullery",
     "rating": 5,
     "review": "Has helped with focus so much. I do wish there were more games, but for the price, I am very happy with it! \n\nI use to supplement my in office neurofeedback, as I can afford to go in as much anymore. Mendi is a cost effective way to get those benefits!!!",
@@ -1867,10 +3212,11 @@
     "date": "2022-04-27T06:53:13-07:00",
     "helpful": 0,
     "version": "1.18.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_c587ejnvz",
+    "id": "app_store_1753650789464_ah7zyiznr",
     "author": "publicdoename",
     "rating": 4,
     "review": "I Love My MENDI. \n\nI’m giving four stars for now because the app has room for growth. Custom durations PLEASE PLEASE\nPLEASE. Obviously, new practice games.  An API for devs. \n\nI LOVE MY MENDI\n\nDoes It Work? You betcha. Best meditations of my life. You so won’t be sorry if you buy a Mendi. \n\nIf used regularly, you will wonder how you ever lived without this tool. I almost purchased a different kind of BCI. I chose MENDI (Best decision). In time, I’m sure I will try other products but I’m confident MENDI will always be my go to for my main practice. I suffer from ADHD and severe anxiety which means the typical medications. Been on them for years yet I’ve never felt as good as I do right now. \nI Love My MENDI\n\nIn February, the one preceding the original March pandemic madness, I lost my mother to cancer. She was my mom, rock, and she was my best friend too. I’m 41 now and have not had a job for 15 years or drove a car in who knows. Up to last year I had never lived alone. I’d never lived outside of the house I grew up in. My entire life has been fighting my mental health issues. Now  I’m a child trying to learn how to live like an adult. It isn’t easy. I have practiced a lot over the years but never long-term habit before. I look forward to time using MEMDI Then I met MENDI.\n\n I LOVE MY MENDI. \n\nI thank everyone at MENDI for this product. I don’t know how I could ever express my gratitude. You guys saved my life. Anything I can do to help\nyou guys, I’d be honored. I’d be happy to take part in any beta testing, clinical studies, research studies, learning paths, whatever it be. \n\nI Love My Mendi",
@@ -1878,10 +3224,47 @@
     "date": "2022-04-25T09:47:22-07:00",
     "helpful": 0,
     "version": "1.18.0",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_4ev3domnt",
+    "id": "app_store_1753650789464_0soh5ggcw",
+    "author": "Asokido",
+    "rating": 3,
+    "review": "Please add the Spanish language.",
+    "title": "Add new languages",
+    "date": "2022-01-30T14:59:28-07:00",
+    "helpful": 0,
+    "version": "1.0.15",
+    "platform": "app_store",
+    "country": "co"
+  },
+  {
+    "id": "app_store_1753650789464_5vhg0heni",
+    "author": "Eddieformdjbcdhb",
+    "rating": 4,
+    "review": "Overall, it is a great device, truly feels a sensation of brain improvement. I’m just wondering if you’re planing to add an option to check on the device status, just to make sure that the Mendi is working properly.",
+    "title": "Feels great",
+    "date": "2022-01-15T07:13:29-07:00",
+    "helpful": 0,
+    "version": "1.0.15",
+    "platform": "app_store",
+    "country": "es"
+  },
+  {
+    "id": "app_store_1753650789464_edocykzg0",
+    "author": "MelodicSymphony",
+    "rating": 1,
+    "review": "In portrait mode app is incorrect orientation and same in landscape. Unusable and deleted",
+    "title": "Useless on ipad",
+    "date": "2022-01-09T10:24:18-07:00",
+    "helpful": 0,
+    "version": "1.0.15",
+    "platform": "app_store",
+    "country": "gb"
+  },
+  {
+    "id": "app_store_1753650789464_kf2ruunk1",
     "author": "Sudoku user2011",
     "rating": 1,
     "review": "Stuck on the first page and can’t set it up beyond adding Email ID",
@@ -1889,10 +3272,47 @@
     "date": "2022-01-03T17:10:29-07:00",
     "helpful": 0,
     "version": "1.0.15",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_30ov5caa0",
+    "id": "app_store_1753650789464_zv0txjiru",
+    "author": "Sandy()-))",
+    "rating": 5,
+    "review": "Is possible to make it also in french Language\n\nThanks",
+    "title": "Love it !",
+    "date": "2021-11-25T08:19:30-07:00",
+    "helpful": 0,
+    "version": "1.0.14",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_414zn516f",
+    "author": "Siggi-Marbella",
+    "rating": 5,
+    "review": "Please insert german Language",
+    "title": "Language",
+    "date": "2021-11-25T07:55:04-07:00",
+    "helpful": 0,
+    "version": "1.0.14",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_2pgx29fk8",
+    "author": "TierraCol",
+    "rating": 2,
+    "review": "Worked ok for 4 weeks then it didn’t reconized me, so I deleted and upload again. Gave my name then my email and keeps on telling me e-mail error!! NOW WHAT !!?",
+    "title": "No way to re-start",
+    "date": "2021-11-18T12:20:35-07:00",
+    "helpful": 0,
+    "version": "1.0.14",
+    "platform": "app_store",
+    "country": "mx"
+  },
+  {
+    "id": "app_store_1753650789464_07tin3uoi",
     "author": "JeezyFoSheezy",
     "rating": 2,
     "review": "Please fix this ASAP it's nearly unusable.",
@@ -1900,10 +3320,11 @@
     "date": "2021-11-06T15:28:01-07:00",
     "helpful": 0,
     "version": "1.0.13",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_6ith2ic0n",
+    "id": "app_store_1753650789464_cxt4cikjw",
     "author": "18;!3$/&2",
     "rating": 3,
     "review": "The game doesn’t load correctly when i start it from the app. It’s inverted and stuck in portrait mode. I have to restart the app multiple times.",
@@ -1911,10 +3332,47 @@
     "date": "2021-10-30T07:54:59-07:00",
     "helpful": 0,
     "version": "1.0.13",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_fne56yhdm",
+    "id": "app_store_1753650789464_zbk97jfqp",
+    "author": "TLHTE",
+    "rating": 5,
+    "review": "Great",
+    "title": "Great",
+    "date": "2021-10-22T06:23:00-07:00",
+    "helpful": 0,
+    "version": "1.0.13",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_6lsy421ub",
+    "author": "Wolfdingo",
+    "rating": 2,
+    "review": "Mendi is a game changer to be sure, but the app is disappointingly limited. Maximum session duration is arbitrarily 15 minutes. I am using Mendi to augment my meditation practice and 15 minutes is a short sit for me. Explanations for how the exercise works are lacking substance - neurofeedback is backed by solid science, but the instructions for how to do it in the app are all a bit fluffy. A “rating” option would also be good for when taking notes. These are my first impressions after a week. Looking forward to future improvements so I can give a 5 star rating!",
+    "title": "Great product, very limited app",
+    "date": "2021-09-21T10:39:25-07:00",
+    "helpful": 0,
+    "version": "1.0.12",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_czv9lr6y1",
+    "author": "gi@mma",
+    "rating": 5,
+    "review": "please insert italian . ths",
+    "title": "language",
+    "date": "2021-08-11T02:20:19-07:00",
+    "helpful": 0,
+    "version": "1.0.11",
+    "platform": "app_store",
+    "country": "ch"
+  },
+  {
+    "id": "app_store_1753650789464_g7qauuqca",
     "author": "fdbixler",
     "rating": 5,
     "review": "My Mendi was delivered on Wednesday, July 7, 2021. Arrived it perfect condition, well packaged, beautifully made, and was a snap to setup. It took seconds for it to locate and connect with the free app. In fact, it took longer to download the app than it took to setup and begin using.  Entire process is incredibly intuitive. Having only been three days, it’s too soon to boast about any improvements, but I am certain I am feeling something going on in my head. Having read about the benefits of neuro-feedback in the book, “The Body Keeps The Score,” by Bessel Van der Kolk MD, I am excited by the possibilities of the benefits of consistent daily practice with Mendi. I have high hopes for this device and its training.",
@@ -1922,10 +3380,23 @@
     "date": "2021-07-10T23:00:30-07:00",
     "helpful": 0,
     "version": "1.0.9",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
   },
   {
-    "id": "app_store_1753644326347_y4d8vp8u7",
+    "id": "app_store_1753650789464_acs4duuel",
+    "author": "sokolovac",
+    "rating": 1,
+    "review": "Still waiting for my verification email. First impression is so important. I really believed this guys would deliver..",
+    "title": "App dont work",
+    "date": "2021-07-01T12:38:39-07:00",
+    "helpful": 0,
+    "version": "1.0.8",
+    "platform": "app_store",
+    "country": "se"
+  },
+  {
+    "id": "app_store_1753650789464_2lwq3mxzb",
     "author": "Leo Fassbender",
     "rating": 5,
     "review": "Sound theory and good user experience!",
@@ -1933,6 +3404,19 @@
     "date": "2021-04-18T12:26:58-07:00",
     "helpful": 0,
     "version": "1.0.2",
-    "platform": "app_store"
+    "platform": "app_store",
+    "country": "us"
+  },
+  {
+    "id": "app_store_1753650789464_9abvpw9l2",
+    "author": "Lazyloading",
+    "rating": 5,
+    "review": "Really cool product! Used it for a week now and can already feel my sleep improving, also feel I can focus more easily at work!",
+    "title": "Cool! 🧠",
+    "date": "2021-03-25T08:40:08-07:00",
+    "helpful": 0,
+    "version": "1.0.1",
+    "platform": "app_store",
+    "country": "se"
   }
 ]
