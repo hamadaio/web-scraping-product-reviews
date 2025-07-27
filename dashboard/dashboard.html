@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Analytics Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            background: white; 
+            border-radius: 15px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header { 
+            background: linear-gradient(45deg, #667eea, #764ba2); 
+            color: white; 
+            padding: 30px; 
+            text-align: center; 
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+        .stats-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 20px; 
+            padding: 30px; 
+            background: #f8f9ff;
+        }
+        .stat-card { 
+            background: white; 
+            padding: 25px; 
+            border-radius: 10px; 
+            text-align: center; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        .stat-card:hover { transform: translateY(-5px); }
+        .stat-value { font-size: 2.5em; font-weight: bold; margin-bottom: 5px; }
+        .stat-label { color: #666; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; }
+        .positive { color: #28a745; }
+        .negative { color: #dc3545; }
+        .neutral { color: #ffc107; }
+        .primary { color: #007bff; }
+        .charts-container { padding: 30px; }
+        .chart-row { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 30px; 
+            margin-bottom: 30px; 
+        }
+        .chart-single { margin-bottom: 30px; }
+        .chart-box { 
+            background: white; 
+            border-radius: 10px; 
+            padding: 20px; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .chart-title { 
+            font-size: 1.3em; 
+            margin-bottom: 15px; 
+            color: #333; 
+            border-bottom: 2px solid #667eea; 
+            padding-bottom: 10px;
+        }
+        .refresh-btn { 
+            position: fixed; 
+            bottom: 30px; 
+            right: 30px; 
+            background: #667eea; 
+            color: white; 
+            border: none; 
+            padding: 15px 25px; 
+            border-radius: 50px; 
+            font-size: 1em; 
+            cursor: pointer; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        .refresh-btn:hover { 
+            background: #764ba2; 
+            transform: translateY(-2px); 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        .keyword-list { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            margin-top: 15px; 
+        }
+        .keyword-tag { 
+            background: #e3f2fd; 
+            color: #1976d2; 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            font-size: 0.9em; 
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .chart-row { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Review Analytics Dashboard</h1>
+            <p>Multi-Platform Review Analysis & Insights</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value primary">397</div>
+                <div class="stat-label">Total Reviews</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value primary">3.9/5</div>
+                <div class="stat-label">Average Rating</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value positive">+0.19</div>
+                <div class="stat-label">Sentiment Score</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value primary">3</div>
+                <div class="stat-label">Data Sources</div>
+            </div>
+        </div>
+        
+        <div class="charts-container">
+            <div class="chart-row">
+                <div class="chart-box">
+                    <div class="chart-title">Reviews by Platform</div>
+                    <div id="sourceChart"></div>
+                </div>
+                <div class="chart-box">
+                    <div class="chart-title">Sentiment Distribution</div>
+                    <div id="sentimentChart"></div>
+                </div>
+            </div>
+            
+            <div class="chart-row">
+                <div class="chart-box">
+                    <div class="chart-title">Rating Distribution</div>
+                    <div id="ratingChart"></div>
+                </div>
+                <div class="chart-box">
+                    <div class="chart-title">Aspect Sentiment</div>
+                    <div id="aspectChart"></div>
+                </div>
+            </div>
+            
+            <div class="chart-single">
+                <div class="chart-box">
+                    <div class="chart-title">Top Keywords</div>
+                    <div class="keyword-list">
+                        <span class="keyword-tag">mendi (220)</span><span class="keyword-tag">app (218)</span><span class="keyword-tag">have (197)</span><span class="keyword-tag">you (155)</span><span class="keyword-tag">not (128)</span><span class="keyword-tag">more (115)</span><span class="keyword-tag">device (110)</span><span class="keyword-tag">can (108)</span><span class="keyword-tag">was (97)</span><span class="keyword-tag">use (97)</span><span class="keyword-tag">after (96)</span><span class="keyword-tag">focus (95)</span><span class="keyword-tag">has (85)</span><span class="keyword-tag">are (84)</span><span class="keyword-tag">like (84)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button class="refresh-btn" onclick="location.reload()">Refresh</button>
+    
+    <script>
+        // Source distribution chart
+        var sourceData = [{
+            values: [176, 156, 65],
+            labels: ['App Store', 'Google Play', 'Trustpilot'],
+            type: 'pie',
+            marker: {
+                colors: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe']
+            }
+        }];
+        Plotly.newPlot('sourceChart', sourceData, {
+            showlegend: true,
+            height: 300
+        });
+        
+        // Sentiment distribution chart
+        var sentimentData = [{
+            x: ['Positive', 'Neutral', 'Negative'],
+            y: [252, 107, 38],
+            type: 'bar',
+            marker: {
+                color: ['#28a745', '#ffc107', '#dc3545']
+            }
+        }];
+        Plotly.newPlot('sentimentChart', sentimentData, {
+            height: 300,
+            xaxis: { title: 'Sentiment' },
+            yaxis: { title: 'Count' }
+        });
+        
+        // Rating distribution chart
+        var ratingData = [{
+            x: [5, 1, 4, 3, 2],
+            y: [237, 57, 40, 35, 28],
+            type: 'bar',
+            marker: {
+                color: '#667eea'
+            }
+        }];
+        Plotly.newPlot('ratingChart', ratingData, {
+            height: 300,
+            xaxis: { title: 'Rating' },
+            yaxis: { title: 'Count' }
+        });
+        
+        // Aspect sentiment chart
+        var aspectData = [{
+            x: [0.21152102669789405, 0.16395609152752014, 0.1835894723092147, 0.1969494574040751, 0.07431370733694398, 0.24073645150640643, 0.207547443814003, 0.1738972270878294, 0.11464636410136246],
+            y: ['Comfort', 'Delivery', 'Features', 'Hardware', 'Performance', 'Results', 'Support', 'User Experience', 'Value'],
+            type: 'bar',
+            orientation: 'h',
+            marker: {
+                color: ['"#28a745"', '"#28a745"', '"#28a745"', '"#28a745"', '"#ffc107"', '"#28a745"', '"#28a745"', '"#28a745"', '"#28a745"']
+            }
+        }];
+        Plotly.newPlot('aspectChart', aspectData, {
+            height: 400,
+            xaxis: { title: 'Average Sentiment' },
+            yaxis: { title: 'Aspect' }
+        });
+    </script>
+</body>
+</html>
