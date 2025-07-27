@@ -13,14 +13,14 @@
 const gplay = require('google-play-scraper').default || require('google-play-scraper');
 const fs = require('fs');
 
-// Function to scrape all reviews with pagination
+// --- func to scrape all reviews with pagination
 async function scrapeAllReviews() {
   console.log('starting to scrape all google play reviews for Mendi app...');
   
   let allReviews = [];
   let nextPaginationToken = null;
   let pageCount = 0;
-  const batchSize = 200; // Fetch 200 reviews per batch
+  const batchSize = 200; // --- fetch 200 reviews per batch
   
   try {
     do {
@@ -34,7 +34,7 @@ async function scrapeAllReviews() {
         throttle: 10
       };
       
-      // Add pagination token if we have one
+      // --- add pagination token if we have one
       if (nextPaginationToken) {
         options.nextPaginationToken = nextPaginationToken;
       }
@@ -46,10 +46,10 @@ async function scrapeAllReviews() {
         allReviews = allReviews.concat(reviews);
         console.log(`Batch ${pageCount}: found ${reviews.length} reviews (total so far: ${allReviews.length})`);
         
-        // Check if there's a next page
+        // --- check if there's a next page
         nextPaginationToken = result.nextPaginationToken;
         
-        // Add delay between requests to be respectful to the API
+        // --- add delay between requests ensure against api rate limits
         if (nextPaginationToken) {
           console.log('waiting 2 seconds before next batch...');
           await new Promise(resolve => setTimeout(resolve, 2000));
@@ -59,11 +59,11 @@ async function scrapeAllReviews() {
         break;
       }
       
-    } while (nextPaginationToken && pageCount < 100); // Safety limit of 100 pages
+    } while (nextPaginationToken && pageCount < 100); // --- safety limit of 100 pages
     
-    console.log(`\nScraping complete! Found ${allReviews.length} total reviews.`);
+    console.log(`\nscraping complete... found ${allReviews.length} total google play reviews`);
     
-    // Create CSV with all reviews
+    // --- create CSV with all reviews
     const csv = 'Date,User Name,Score,Review Text,Helpful Count,Reply Date,Reply Text\n' + 
       allReviews.map(r => {
         const date = r.date || '';
@@ -77,15 +77,15 @@ async function scrapeAllReviews() {
         return `"${date}","${userName}","${score}","${text}","${helpfulCount}","${replyDate}","${replyText}"`;
       }).join('\n');
     
-    // Save to file with timestamp
+    // --- save to file with timestamp
     const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-    const filename = `mendi_all_reviews_${timestamp}.csv`;
+    const filename = `mendi_all_google-play_reviews_${timestamp}.csv`;
     
     fs.writeFileSync(filename, csv);
-    console.log(`All reviews saved to: ${filename}`);
+    console.log(`all reviews saved --> ${filename}`);
     console.log(`File size: ${(fs.statSync(filename).size / 1024 / 1024).toFixed(2)} MB`);
     
-    // Show some statistics
+    // --- print some bulk stats
     const ratings = allReviews.map(r => r.score).filter(s => s);
     const avgRating = ratings.reduce((a, b) => a + b, 0) / ratings.length;
     console.log(`\nstats:`);
@@ -103,5 +103,5 @@ async function scrapeAllReviews() {
   }
 }
 
-// Run the scraper
+// --- run google play scraper
 scrapeAllReviews();
