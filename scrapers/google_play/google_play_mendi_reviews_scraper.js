@@ -79,7 +79,7 @@ async function scrapeAllReviews() {
     
     // --- save to file with timestamp
     const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-    const filename = `mendi_all_google-play_reviews_${timestamp}.csv`;
+    const filename = `mendi_google-play_reviews_${timestamp}.csv`;
     
     fs.writeFileSync(filename, csv);
     console.log(`all reviews saved --> ${filename}`);
