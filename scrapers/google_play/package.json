@@ -1,0 +1,31 @@
+{
+  "name": "web-scraping-product-reviews",
+  "version": "1.0.0",
+  "description": "A collection of web scrapers for product reviews from various platforms including Google Play Store and Trustpilot",
+  "main": "scrapers/google_play/google_play_mendi_reviews_scraper.js",
+  "scripts": {
+    "scrape:google-play": "node scrapers/google_play/google_play_mendi_reviews_scraper.js",
+    "scrape:trustpilot": "python scrapers/trustpilot/trustpilot_reviews_scraper.py",
+    "analyze": "python analysis/webscraping_analysis_v2.py",
+    "analyze:pca": "python analysis/webscraping_pca.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-scraping",
+    "reviews",
+    "google-play",
+    "trustpilot",
+    "data-analysis",
+    "sentiment-analysis"
+  ],
+  "author": "M S Hamada",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "google-play-scraper": "^9.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
