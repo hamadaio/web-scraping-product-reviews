@@ -88,13 +88,47 @@ async function scrapeAllReviews() {
         return `"${date}","${userName}","${score}","${title}","${text}","${version}","${helpfulCount}"`;
       }).join('\n');
     
-    // --- save to file with timestamp
+    // --- save to files with timestamp
     const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-    const filename = `mendi_apple-app-store_reviews_${timestamp}.csv`;
+    const csvFilename = `mendi_apple-app-store_reviews_${timestamp}.csv`;
+    const jsonFilename = `mendi_apple-app-store_reviews_${timestamp}.json`;
     
-    fs.writeFileSync(filename, csv);
-    console.log(`all reviews saved --> ${filename}`);
-    console.log(`File size: ${(fs.statSync(filename).size / 1024 / 1024).toFixed(2)} MB`);
+    // --- save CSV file
+    fs.writeFileSync(csvFilename, csv);
+    console.log(`CSV reviews saved --> ${csvFilename}`);
+    console.log(`CSV File size: ${(fs.statSync(csvFilename).size / 1024 / 1024).toFixed(2)} MB`);
+    
+    // --- save JSON file
+    const jsonData = allReviews.map(r => {
+      // --- handle date formatting properly for JSON
+      let date = '';
+      const dateField = r.updated || r.date;
+      if (dateField) {
+        if (dateField instanceof Date) {
+          date = dateField.toISOString().split('T')[0]; // YYYY-MM-DD format
+        } else if (typeof dateField === 'string') {
+          date = dateField;
+        } else {
+          date = String(dateField);
+        }
+      }
+      
+      return {
+        id: `app_store_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        author: r.userName || 'Anonymous',
+        rating: r.score || null,
+        review: r.text || '',
+        title: r.title || '',
+        date: date,
+        helpful: r.helpfulCount || 0,
+        version: r.version || '',
+        platform: 'app_store'
+      };
+    });
+    
+    fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+    console.log(`JSON reviews saved --> ${jsonFilename}`);
+    console.log(`JSON File size: ${(fs.statSync(jsonFilename).size / 1024 / 1024).toFixed(2)} MB`);
     
     // --- print some bulk stats
     const ratings = allReviews.map(r => r.score).filter(s => s);

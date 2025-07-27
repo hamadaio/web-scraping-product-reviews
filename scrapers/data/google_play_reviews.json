@@ -1,0 +1,902 @@
+[
+  {
+    "id": "gp_1",
+    "author": "John D.",
+    "rating": 3,
+    "review": "The device is alright, meets basic expectations.",
+    "date": "2025-06-28",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_2",
+    "author": "Ryan F.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2025-06-25",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_3",
+    "author": "Lisa K.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2025-01-10",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_4",
+    "author": "Anna B.",
+    "rating": 5,
+    "review": "Comfortable to wear and easy to use. Great investment!",
+    "date": "2025-01-11",
+    "helpful": 15,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_5",
+    "author": "John D.",
+    "rating": 1,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2025-05-04",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_6",
+    "author": "Chris P.",
+    "rating": 2,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-04-21",
+    "helpful": 3,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_7",
+    "author": "Lisa K.",
+    "rating": 1,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2024-09-03",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_8",
+    "author": "Tom W.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2025-04-05",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_9",
+    "author": "Sarah M.",
+    "rating": 4,
+    "review": "Love the comfort and build quality. Worth every penny!",
+    "date": "2025-03-24",
+    "helpful": 19,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_10",
+    "author": "John D.",
+    "rating": 5,
+    "review": "Amazing product! Really helps with meditation and focus.",
+    "date": "2024-12-03",
+    "helpful": 15,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_11",
+    "author": "Alex J.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2024-09-10",
+    "helpful": 18,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_12",
+    "author": "Mike R.",
+    "rating": 5,
+    "review": "Outstanding performance and very accurate readings.",
+    "date": "2025-01-01",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_13",
+    "author": "Mike R.",
+    "rating": 1,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2024-08-18",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_14",
+    "author": "Mark H.",
+    "rating": 5,
+    "review": "The battery life is impressive and the device is very reliable.",
+    "date": "2025-02-04",
+    "helpful": 3,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_15",
+    "author": "Chris P.",
+    "rating": 1,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-03-09",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_16",
+    "author": "Anna B.",
+    "rating": 5,
+    "review": "Amazing product! Really helps with meditation and focus.",
+    "date": "2025-05-15",
+    "helpful": 1,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_17",
+    "author": "Mark H.",
+    "rating": 5,
+    "review": "Excellent customer service and fast shipping.",
+    "date": "2025-06-08",
+    "helpful": 2,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_18",
+    "author": "Tom W.",
+    "rating": 3,
+    "review": "Fair product, gets the basics right.",
+    "date": "2025-04-28",
+    "helpful": 19,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_19",
+    "author": "Jessica T.",
+    "rating": 1,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-04-14",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_20",
+    "author": "Alex J.",
+    "rating": 2,
+    "review": "Waste of money, doesn't work as advertised.",
+    "date": "2024-11-30",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_21",
+    "author": "David L.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2024-08-03",
+    "helpful": 8,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_22",
+    "author": "Nicole V.",
+    "rating": 1,
+    "review": "Overpriced for what you get, not worth it.",
+    "date": "2025-06-09",
+    "helpful": 11,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_23",
+    "author": "Mike R.",
+    "rating": 3,
+    "review": "Does the job but room for improvement.",
+    "date": "2025-04-27",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_24",
+    "author": "David L.",
+    "rating": 3,
+    "review": "Standard quality, meets minimum requirements.",
+    "date": "2024-11-26",
+    "helpful": 9,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_25",
+    "author": "Jessica T.",
+    "rating": 5,
+    "review": "Outstanding performance and very accurate readings.",
+    "date": "2024-08-03",
+    "helpful": 19,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_26",
+    "author": "Alex J.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2024-08-10",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_27",
+    "author": "John D.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2025-01-06",
+    "helpful": 1,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_28",
+    "author": "Emily S.",
+    "rating": 3,
+    "review": "Does the job but room for improvement.",
+    "date": "2025-05-20",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_29",
+    "author": "Mike R.",
+    "rating": 1,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2025-04-02",
+    "helpful": 6,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_30",
+    "author": "Chris P.",
+    "rating": 4,
+    "review": "Comfortable to wear and easy to use. Great investment!",
+    "date": "2024-12-22",
+    "helpful": 4,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_31",
+    "author": "Jessica T.",
+    "rating": 1,
+    "review": "Battery dies too quickly, very disappointed.",
+    "date": "2025-07-18",
+    "helpful": 8,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_32",
+    "author": "Chris P.",
+    "rating": 4,
+    "review": "The battery life is impressive and the device is very reliable.",
+    "date": "2024-12-07",
+    "helpful": 13,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_33",
+    "author": "Jessica T.",
+    "rating": 3,
+    "review": "Average product, nothing special but works fine.",
+    "date": "2024-12-03",
+    "helpful": 18,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_34",
+    "author": "John D.",
+    "rating": 4,
+    "review": "Perfect for daily meditation practice. Seeing real improvements!",
+    "date": "2024-11-16",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_35",
+    "author": "Mark H.",
+    "rating": 5,
+    "review": "The app is intuitive and the data insights are valuable.",
+    "date": "2025-01-11",
+    "helpful": 15,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_36",
+    "author": "Mike R.",
+    "rating": 2,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2025-06-28",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_37",
+    "author": "Mark H.",
+    "rating": 1,
+    "review": "Product broke after just a few weeks of use.",
+    "date": "2025-07-17",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_38",
+    "author": "Sarah M.",
+    "rating": 3,
+    "review": "The device is alright, meets basic expectations.",
+    "date": "2025-05-21",
+    "helpful": 15,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_39",
+    "author": "Lisa K.",
+    "rating": 2,
+    "review": "The app is confusing and difficult to navigate.",
+    "date": "2025-04-18",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_40",
+    "author": "David L.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2024-12-06",
+    "helpful": 19,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_41",
+    "author": "Alex J.",
+    "rating": 4,
+    "review": "Amazing product! Really helps with meditation and focus.",
+    "date": "2025-05-31",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_42",
+    "author": "Sarah M.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2025-02-12",
+    "helpful": 11,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_43",
+    "author": "Jessica T.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2024-12-04",
+    "helpful": 8,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_44",
+    "author": "Alex J.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2024-11-27",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_45",
+    "author": "Alex J.",
+    "rating": 3,
+    "review": "Standard quality, meets minimum requirements.",
+    "date": "2025-07-12",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_46",
+    "author": "Mark H.",
+    "rating": 1,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-01-31",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_47",
+    "author": "Nicole V.",
+    "rating": 3,
+    "review": "The device is alright, meets basic expectations.",
+    "date": "2025-04-25",
+    "helpful": 3,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_48",
+    "author": "David L.",
+    "rating": 2,
+    "review": "Many technical issues, very frustrating experience.",
+    "date": "2025-06-28",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_49",
+    "author": "John D.",
+    "rating": 4,
+    "review": "Amazing product! Really helps with meditation and focus.",
+    "date": "2024-09-05",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_50",
+    "author": "Anna B.",
+    "rating": 5,
+    "review": "Great app, very user-friendly interface. Highly recommend!",
+    "date": "2024-12-22",
+    "helpful": 13,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_51",
+    "author": "Ryan F.",
+    "rating": 3,
+    "review": "Does the job but room for improvement.",
+    "date": "2025-05-23",
+    "helpful": 20,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_52",
+    "author": "Anna B.",
+    "rating": 3,
+    "review": "Adequate performance, could be better.",
+    "date": "2024-11-24",
+    "helpful": 6,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_53",
+    "author": "Jessica T.",
+    "rating": 2,
+    "review": "Completely useless, total disappointment.",
+    "date": "2025-07-23",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_54",
+    "author": "Ryan F.",
+    "rating": 1,
+    "review": "Battery dies too quickly, very disappointed.",
+    "date": "2024-11-13",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_55",
+    "author": "Ryan F.",
+    "rating": 4,
+    "review": "Perfect for daily meditation practice. Seeing real improvements!",
+    "date": "2025-07-02",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_56",
+    "author": "Alex J.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2024-10-08",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_57",
+    "author": "Anna B.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2025-05-27",
+    "helpful": 11,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_58",
+    "author": "Alex J.",
+    "rating": 2,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2025-06-14",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_59",
+    "author": "Ryan F.",
+    "rating": 5,
+    "review": "Amazing product! Really helps with meditation and focus.",
+    "date": "2024-09-18",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_60",
+    "author": "Mike R.",
+    "rating": 2,
+    "review": "Overpriced for what you get, not worth it.",
+    "date": "2025-06-13",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_61",
+    "author": "Ryan F.",
+    "rating": 2,
+    "review": "Completely useless, total disappointment.",
+    "date": "2025-05-09",
+    "helpful": 13,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_62",
+    "author": "Sarah M.",
+    "rating": 2,
+    "review": "Completely useless, total disappointment.",
+    "date": "2025-03-19",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_63",
+    "author": "Mike R.",
+    "rating": 3,
+    "review": "Average product, nothing special but works fine.",
+    "date": "2025-04-11",
+    "helpful": 18,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_64",
+    "author": "Mike R.",
+    "rating": 2,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2025-05-11",
+    "helpful": 0,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_65",
+    "author": "Anna B.",
+    "rating": 2,
+    "review": "Terrible app, constantly crashes and bugs everywhere.",
+    "date": "2024-08-31",
+    "helpful": 4,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_66",
+    "author": "Lisa K.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2025-07-16",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_67",
+    "author": "Alex J.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2025-06-12",
+    "helpful": 10,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_68",
+    "author": "Sarah M.",
+    "rating": 4,
+    "review": "Excellent customer service and fast shipping.",
+    "date": "2025-05-15",
+    "helpful": 2,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_69",
+    "author": "John D.",
+    "rating": 2,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-03-06",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_70",
+    "author": "Rachel C.",
+    "rating": 2,
+    "review": "Overpriced for what you get, not worth it.",
+    "date": "2025-03-21",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_71",
+    "author": "Tom W.",
+    "rating": 3,
+    "review": "Fair product, gets the basics right.",
+    "date": "2025-06-23",
+    "helpful": 6,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_72",
+    "author": "Mike R.",
+    "rating": 1,
+    "review": "Many technical issues, very frustrating experience.",
+    "date": "2025-03-14",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_73",
+    "author": "Sarah M.",
+    "rating": 5,
+    "review": "The battery life is impressive and the device is very reliable.",
+    "date": "2024-10-04",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_74",
+    "author": "John D.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2025-05-20",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_75",
+    "author": "David L.",
+    "rating": 1,
+    "review": "Battery dies too quickly, very disappointed.",
+    "date": "2024-12-15",
+    "helpful": 3,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_76",
+    "author": "Sarah M.",
+    "rating": 2,
+    "review": "Overpriced for what you get, not worth it.",
+    "date": "2025-07-11",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_77",
+    "author": "Emily S.",
+    "rating": 3,
+    "review": "Adequate performance, could be better.",
+    "date": "2025-01-13",
+    "helpful": 6,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_78",
+    "author": "John D.",
+    "rating": 3,
+    "review": "Average product, nothing special but works fine.",
+    "date": "2025-01-06",
+    "helpful": 13,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_79",
+    "author": "Mark H.",
+    "rating": 4,
+    "review": "Outstanding performance and very accurate readings.",
+    "date": "2025-03-10",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_80",
+    "author": "Emily S.",
+    "rating": 3,
+    "review": "Average product, nothing special but works fine.",
+    "date": "2024-12-18",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_81",
+    "author": "Nicole V.",
+    "rating": 5,
+    "review": "Fantastic product that actually works as advertised.",
+    "date": "2024-10-28",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_82",
+    "author": "Chris P.",
+    "rating": 2,
+    "review": "Battery dies too quickly, very disappointed.",
+    "date": "2024-09-16",
+    "helpful": 9,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_83",
+    "author": "Rachel C.",
+    "rating": 2,
+    "review": "Overpriced for what you get, not worth it.",
+    "date": "2024-11-05",
+    "helpful": 19,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_84",
+    "author": "Mike R.",
+    "rating": 5,
+    "review": "The app is intuitive and the data insights are valuable.",
+    "date": "2025-05-13",
+    "helpful": 13,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_85",
+    "author": "Ryan F.",
+    "rating": 4,
+    "review": "Love the comfort and build quality. Worth every penny!",
+    "date": "2025-02-13",
+    "helpful": 6,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_86",
+    "author": "Lisa K.",
+    "rating": 4,
+    "review": "Excellent customer service and fast shipping.",
+    "date": "2024-10-30",
+    "helpful": 16,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_87",
+    "author": "Emily S.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2025-05-18",
+    "helpful": 2,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_88",
+    "author": "Tom W.",
+    "rating": 4,
+    "review": "Fantastic product that actually works as advertised.",
+    "date": "2024-08-17",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_89",
+    "author": "Sarah M.",
+    "rating": 3,
+    "review": "It's fine for the price point.",
+    "date": "2024-10-20",
+    "helpful": 11,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_90",
+    "author": "Alex J.",
+    "rating": 2,
+    "review": "Product broke after just a few weeks of use.",
+    "date": "2024-12-27",
+    "helpful": 5,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_91",
+    "author": "John D.",
+    "rating": 2,
+    "review": "Poor customer service, no response to my complaints.",
+    "date": "2025-04-10",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_92",
+    "author": "Sarah M.",
+    "rating": 1,
+    "review": "Many technical issues, very frustrating experience.",
+    "date": "2025-01-22",
+    "helpful": 12,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_93",
+    "author": "Rachel C.",
+    "rating": 5,
+    "review": "Love the comfort and build quality. Worth every penny!",
+    "date": "2025-04-18",
+    "helpful": 17,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_94",
+    "author": "Rachel C.",
+    "rating": 1,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-04-04",
+    "helpful": 7,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_95",
+    "author": "Emily S.",
+    "rating": 2,
+    "review": "Uncomfortable to wear, cheap build quality.",
+    "date": "2025-01-16",
+    "helpful": 8,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_96",
+    "author": "Ryan F.",
+    "rating": 1,
+    "review": "Waste of money, doesn't work as advertised.",
+    "date": "2025-04-14",
+    "helpful": 14,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_97",
+    "author": "Sarah M.",
+    "rating": 5,
+    "review": "Perfect for daily meditation practice. Seeing real improvements!",
+    "date": "2024-11-11",
+    "helpful": 2,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_98",
+    "author": "David L.",
+    "rating": 3,
+    "review": "It's okay, does what it's supposed to do.",
+    "date": "2025-04-29",
+    "helpful": 1,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_99",
+    "author": "Anna B.",
+    "rating": 5,
+    "review": "Perfect for daily meditation practice. Seeing real improvements!",
+    "date": "2025-03-01",
+    "helpful": 15,
+    "platform": "google_play"
+  },
+  {
+    "id": "gp_100",
+    "author": "Mark H.",
+    "rating": 3,
+    "review": "Fair product, gets the basics right.",
+    "date": "2024-11-22",
+    "helpful": 9,
+    "platform": "google_play"
+  }
+]

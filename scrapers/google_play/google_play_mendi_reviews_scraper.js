@@ -77,13 +77,32 @@ async function scrapeAllReviews() {
         return `"${date}","${userName}","${score}","${text}","${helpfulCount}","${replyDate}","${replyText}"`;
       }).join('\n');
     
-    // --- save to file with timestamp
+    // --- save to files with timestamp
     const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
-    const filename = `mendi_google-play_reviews_${timestamp}.csv`;
+    const csvFilename = `mendi_google-play_reviews_${timestamp}.csv`;
+    const jsonFilename = `mendi_google-play_reviews_${timestamp}.json`;
     
-    fs.writeFileSync(filename, csv);
-    console.log(`all reviews saved --> ${filename}`);
-    console.log(`File size: ${(fs.statSync(filename).size / 1024 / 1024).toFixed(2)} MB`);
+    // --- save CSV file
+    fs.writeFileSync(csvFilename, csv);
+    console.log(`CSV reviews saved --> ${csvFilename}`);
+    console.log(`CSV File size: ${(fs.statSync(csvFilename).size / 1024 / 1024).toFixed(2)} MB`);
+    
+    // --- save JSON file
+    const jsonData = allReviews.map(r => ({
+      id: `google_play_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      author: r.userName || 'Anonymous',
+      rating: r.score || null,
+      review: r.text || '',
+      date: r.date || '',
+      helpful: r.helpfulCount || 0,
+      reply_date: r.replyDate || '',
+      reply_text: r.replyText || '',
+      platform: 'google_play'
+    }));
+    
+    fs.writeFileSync(jsonFilename, JSON.stringify(jsonData, null, 2));
+    console.log(`JSON reviews saved --> ${jsonFilename}`);
+    console.log(`JSON File size: ${(fs.statSync(jsonFilename).size / 1024 / 1024).toFixed(2)} MB`);
     
     // --- print some bulk stats
     const ratings = allReviews.map(r => r.score).filter(s => s);
