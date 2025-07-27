@@ -1,4 +1,5 @@
 import json
+import csv
 import sys
 import time
 import re
@@ -254,7 +255,10 @@ def main():
             max_pages = 1
     company_name = extract_company_name(base_url)
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S") + ".000Z"
-    output_filename = f"{company_name}_trustpilot_reviews_{timestamp}.json"
+    
+    # Define output filenames for both JSON and CSV
+    json_filename = f"{company_name}_trustpilot_reviews_{timestamp}.json"
+    csv_filename = f"{company_name}_trustpilot_reviews_{timestamp}.csv"
     driver = setup_driver()
     all_reviews = []
     current_page = 1
@@ -278,14 +282,37 @@ def main():
             time.sleep(2)
     finally:
         driver.quit()
-    with open(output_filename, 'w', encoding='utf-8') as f:
+    
+    # Save data in JSON format
+    with open(json_filename, 'w', encoding='utf-8') as f:
         json.dump(all_reviews, f, indent=2, ensure_ascii=False)
+    
+    # Save data in CSV format
+    if all_reviews:
+        with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
+            fieldnames = ['date', 'rating', 'title', 'review']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            
+            # Write header
+            writer.writeheader()
+            
+            # Write review data
+            for review in all_reviews:
+                writer.writerow({
+                    'date': review.get('date', ''),
+                    'rating': review.get('rating', ''),
+                    'title': review.get('title', ''),
+                    'review': review.get('review', '')
+                })
+    
     if scrape_all and not reached_404:
         print("scraping complete (scraped until no more pages found).")
     else:
         pages_scraped = current_page if not reached_404 else current_page - 1
         print(f"query complete... queried {len(all_reviews)} reviews across {pages_scraped} page(s).")
-    print(f"results saved to {output_filename}.")
+    print("results saved to:")
+    print(f"  JSON: {json_filename}")
+    print(f"  CSV:  {csv_filename}")
 
 if __name__ == "__main__":
     main()
