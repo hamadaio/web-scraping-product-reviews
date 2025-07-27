@@ -1,0 +1,22 @@
+{
+  "name": "apple-app-store-mendi-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Mendi app reviews from Apple App Store",
+  "main": "apple_app_store_mendi_reviews_scraper.js",
+  "scripts": {
+    "start": "node apple_app_store_mendi_reviews_scraper.js",
+    "scrape": "node apple_app_store_mendi_reviews_scraper.js"
+  },
+  "dependencies": {
+    "app-store-scraper": "*"
+  },
+  "keywords": [
+    "apple",
+    "app-store",
+    "reviews",
+    "scraper",
+    "mendi"
+  ],
+  "author": "M S Hamada",
+  "license": "MIT"
+}
