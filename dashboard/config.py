@@ -3,9 +3,13 @@ Configuration file for the Review Analytics Dashboard.
 Contains all constants, color schemes, and default settings.
 """
 
+import os
+
 # Default settings
 DEFAULT_PORT = 8050
-DEFAULT_DATA_DIR = "./data"
+# DEFAULT_DATA_DIR = "./data" # --- relative path for data directory
+# --- use absolute path to ensure correct data directory location
+DEFAULT_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 # Color scheme - Modern dark theme inspired by design
 COLORS = {
