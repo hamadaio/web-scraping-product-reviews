@@ -128,22 +128,22 @@ class SimpleDashboard:
         try:
             with socketserver.TCPServer(("", self.port), DashboardHandler) as httpd:
                 url = f"http://localhost:{self.port}"
-                print(f"\n🚀 Dashboard running at: {url}")
+                print(f"\nDashboard running at: {url}")
                 
                 if self.data_processor.is_data_loaded():
                     data_info = self.data_processor.get_data_info()
-                    print(f"📊 Loaded {data_info['total_reviews']} reviews from {len(data_info['sources'])} sources")
-                    print("✨ Dashboard features:")
+                    print(f"Loaded {data_info['total_reviews']} reviews from {len(data_info['sources'])} sources")
+                    print("Dashboard features:")
                     print("   • Multi-platform review aggregation")
                     print("   • Sentiment analysis & categorization") 
                     print("   • Aspect-based insights")
                     print("   • Interactive visualizations")
                     print("   • Real-time keyword analysis")
                 else:
-                    print("⚠️  No data loaded - showing placeholder dashboard")
+                    print("No data loaded - showing placeholder dashboard")
                 
-                print(f"\n🔄 Refresh the page to reload data")
-                print("⛔ Press Ctrl+C to stop the server")
+                print(f"\nRefresh the page to reload data")
+                print("Press Ctrl+C to stop the server")
                 
                 # Open browser
                 webbrowser.open(url)
@@ -152,13 +152,13 @@ class SimpleDashboard:
                 httpd.serve_forever()
                 
         except KeyboardInterrupt:
-            print("\n👋 Dashboard stopped!")
+            print("\nDashboard stopped!")
         except OSError as e:
             if "Address already in use" in str(e):
-                print(f"❌ Port {self.port} is already in use.")
-                print(f"💡 Try a different port: python3 dashboard_app.py --port 8051")
+                print(f"Port {self.port} is already in use.")
+                print(f"Try a different port: python3 dashboard_app.py --port 8051")
             else:
-                print(f"❌ Error starting server: {e}")
+                print(f"Error starting server: {e}")
     
     def get_data_info(self) -> dict:
         """Get information about loaded data."""
