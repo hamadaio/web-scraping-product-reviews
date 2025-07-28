@@ -33,9 +33,9 @@ try {
 // Zendesk API configuration
 const ZENDESK_CONFIG = {
   // Load from environment variables for security
-  subdomain: process.env.ZENDESK_SUBDOMAIN || 'mendi-io',
-  email: process.env.ZENDESK_EMAIL || 'robert@mendi.io',
-  apiToken: process.env.ZENDESK_API_TOKEN || 'j0sPNcEGy02CDw2F4vP8oAG0MSeLwXLFePyy6XBx',
+  subdomain: process.env.ZENDESK_SUBDOMAIN,
+  email: process.env.ZENDESK_EMAIL,
+  apiToken: process.env.ZENDESK_API_TOKEN,
   
   // API endpoints
   baseUrl: 'https://{subdomain}.zendesk.com/api/v2',
