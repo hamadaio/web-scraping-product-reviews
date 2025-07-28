@@ -12,8 +12,8 @@ if [ ! -d "dashboard_env" ]; then
 fi
 
 # Run the dashboard app
-echo "🚀 Starting Review Analytics Dashboard..."
-echo "📁 Current directory: $(pwd)"
-echo "🐍 Using Python: $(dashboard_env/bin/python --version)"
+echo " starting dashboard..."
+echo " current directory: $(pwd)"
+echo " using Python3: $(dashboard_env/bin/python --version)"
 
 dashboard_env/bin/python dashboard_app.py
