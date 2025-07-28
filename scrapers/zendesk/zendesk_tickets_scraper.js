@@ -12,13 +12,30 @@
 
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
+
+// Load environment variables from .env file
+try {
+  const envPath = path.join(__dirname, '.env');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf8');
+    envContent.split('\n').forEach(line => {
+      const [key, value] = line.split('=');
+      if (key && value) {
+        process.env[key.trim()] = value.trim();
+      }
+    });
+  }
+} catch (error) {
+  console.warn('Warning: Could not load .env file:', error.message);
+}
 
 // Zendesk API configuration
 const ZENDESK_CONFIG = {
-  // TODO: Replace these with your actual Zendesk details
-  subdomain: 'mendi-io', // e.g., 'mendi' for mendi.zendesk.com
-  email: 'robert@mendi.io', // Your Zendesk admin email
-  apiToken: 'j0sPNcEGy02CDw2F4vP8oAG0MSeLwXLFePyy6XBx', // Your Zendesk API token
+  // Load from environment variables for security
+  subdomain: process.env.ZENDESK_SUBDOMAIN || 'mendi-io',
+  email: process.env.ZENDESK_EMAIL || 'robert@mendi.io',
+  apiToken: process.env.ZENDESK_API_TOKEN || 'j0sPNcEGy02CDw2F4vP8oAG0MSeLwXLFePyy6XBx',
   
   // API endpoints
   baseUrl: 'https://{subdomain}.zendesk.com/api/v2',
@@ -350,10 +367,14 @@ async function scrapeZendeskData() {
   
   try {
     // Validate configuration
+    if (!ZENDESK_CONFIG.subdomain || !ZENDESK_CONFIG.email || !ZENDESK_CONFIG.apiToken) {
+      throw new Error('Missing Zendesk credentials. Please set environment variables or update the script configuration.');
+    }
+    
     if (ZENDESK_CONFIG.subdomain === 'your-subdomain' || 
         ZENDESK_CONFIG.email === 'your-email@domain.com' || 
         ZENDESK_CONFIG.apiToken === 'your-api-token') {
-      throw new Error('Please configure your Zendesk credentials in the script');
+      throw new Error('Please configure your Zendesk credentials in the script or environment variables');
     }
     
     const startTime = Date.now();

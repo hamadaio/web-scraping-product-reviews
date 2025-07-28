@@ -1,43 +1,64 @@
-# Zendesk API Configuration Template
-# 
-# Copy this file to `zendesk_config.js` and fill in your actual credentials
-# DO NOT commit the actual config file with real credentials to version control
+# Zendesk API Configuration Setup
 
-# Your Zendesk Configuration:
-# 1. Subdomain: The part before .zendesk.com in your Zendesk URL
-#    Example: If your Zendesk is at https://mendi.zendesk.com, then subdomain = 'mendi'
+## Security Options (Choose One)
 
-# 2. Email: Your Zendesk admin email address
+### Option 1: Environment Variables (Recommended)
+1. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
 
-# 3. API Token: 
-#    - Go to Zendesk Admin Center
-#    - Navigate to Apps and integrations > APIs > Zendesk API
-#    - Enable token access and generate a new token
-#    - Copy the token value
+2. Edit `.env` file with your credentials:
+   ```
+   ZENDESK_SUBDOMAIN=your-subdomain
+   ZENDESK_EMAIL=your-email@domain.com
+   ZENDESK_API_TOKEN=your-api-token
+   ```
 
-# Update the ZENDESK_CONFIG object in zendesk_tickets_scraper.js with:
+3. The `.env` file is automatically loaded and gitignored for security
 
+### Option 2: Direct Script Configuration
+Update the ZENDESK_CONFIG object in `zendesk_tickets_scraper.js`:
+
+```javascript
 const ZENDESK_CONFIG = {
-  subdomain: 'your-subdomain',           // Replace with your actual subdomain
-  email: 'your-email@domain.com',        // Replace with your Zendesk admin email  
-  apiToken: 'your-api-token',            // Replace with your generated API token
-  
-  // These don't need to be changed
-  baseUrl: 'https://{subdomain}.zendesk.com/api/v2',
-  endpoints: {
-    tickets: '/tickets.json',
-    satisfaction_ratings: '/satisfaction_ratings.json',
-    users: '/users.json'
-  }
+  subdomain: 'your-subdomain',
+  email: 'your-email@domain.com', 
+  apiToken: 'your-api-token',
+  // ... rest of config
 };
+```
 
-# Security Notes:
-# - Keep your API token secret
-# - Consider using environment variables for production
-# - The API token has the same permissions as your user account
-# - You can regenerate the token if it gets compromised
+## Getting Your Credentials
 
-# Rate Limits:
-# - Zendesk allows 700 requests per minute
-# - The scraper includes automatic rate limiting delays
-# - For large datasets, the scraper may take several minutes to complete
+### 1. Subdomain
+- Look at your Zendesk URL
+- If your Zendesk is at `https://mendi.zendesk.com`, then subdomain = `mendi`
+
+### 2. Email
+- Use your Zendesk admin email address
+
+### 3. API Token
+- Go to Zendesk Admin Center
+- Navigate to **Apps and integrations** > **APIs** > **Zendesk API**
+- Enable token access and generate a new token
+- Copy the token value
+
+## Security Best Practices
+
+- ✅ Use environment variables (Option 1)
+- ✅ Never commit `.env` files to version control
+- ✅ Regularly rotate API tokens
+- ✅ Use minimum required permissions
+- ❌ Don't hardcode credentials in scripts
+- ❌ Don't share API tokens in chat/email
+
+## Running the Scraper
+
+```bash
+# With environment variables
+node zendesk_tickets_scraper.js
+
+# Or with the shell script
+./run_zendesk_scraper.sh
+```
