@@ -2,6 +2,7 @@
 Configuration file for the Review Analytics Dashboard.
 Contains all constants, color schemes, and default settings.
 """
+import os
 
 # Default settings
 DEFAULT_PORT = 8050
