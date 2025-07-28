@@ -72,12 +72,12 @@ Place your review JSON files in the `../data/` directory. The system expects fil
 ]
 ```
 
-### 2. Generate Sample Data (Optional)
+### 2. Add Your Data
 
-To test the dashboard with sample data:
-```bash
-python sample_data_generator.py
-```
+Place your JSON review files in the `data/` directory. The dashboard supports:
+- Google Play reviews (files with 'google' or 'play' in the name)
+- App Store reviews (files with 'apple' or 'app_store' in the name)  
+- Trustpilot reviews (files with 'trustpilot' in the name)
 
 ### 3. Run the Dashboard
 

@@ -6,28 +6,29 @@
     <title>Product Reviews Dashboard</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
+        
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
         
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
-            background: #111111;
+            background: #0B0E1A;
             min-height: 100vh;
-            color: #ffffff;
+            color: #F8FAFC;
             font-size: 14px;
             line-height: 1.5;
         }
         .container { 
             max-width: 1600px; 
             margin: 0 auto; 
-            background: #111111; 
+            background: #0B0E1A; 
             min-height: 100vh;
         }
         .header { 
-            background: #1e1e1e; 
+            background: #1A1F2E; 
             color: white; 
             padding: 25px 30px; 
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #334155;
         }
         .header h1 { 
             font-size: 28px; 
@@ -44,8 +45,8 @@
         /* Tabs */
         .tabs { 
             display: flex; 
-            background: #1e1e1e; 
-            border-bottom: 1px solid #333;
+            background: #1A1F2E; 
+            border-bottom: 1px solid #334155;
             padding: 0 30px;
         }
         .tab { 
@@ -53,20 +54,20 @@
             cursor: pointer; 
             border: none; 
             background: transparent; 
-            color: #a0a0a0; 
+            color: #94A3B8; 
             font-size: 14px;
             font-weight: 400;
             transition: all 0.2s ease;
             border-bottom: 3px solid transparent;
         }
         .tab:hover { 
-            color: #ffffff; 
-            background: rgba(255,255,255,0.05);
+            color: #F8FAFC; 
+            background: rgba(59, 130, 246, 0.05);
         }
         .tab.active { 
-            color: #ffffff; 
-            border-bottom-color: #1f77b4;
-            background: rgba(31, 119, 180, 0.1);
+            color: #F8FAFC; 
+            border-bottom-color: #3B82F6;
+            background: rgba(59, 130, 246, 0.1);
         }
         
         .tab-content { 
@@ -83,62 +84,67 @@
             margin-bottom: 30px;
         }
         .stat-card { 
-            background: #1e1e1e; 
+            background: #1A1F2E; 
             padding: 25px; 
-            border-radius: 8px; 
-            border: 1px solid #333;
-            transition: box-shadow 0.2s ease;
+            border-radius: 12px; 
+            border: 1px solid #334155;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
         }
         .stat-card:hover {
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            border-color: #3B82F6;
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.12);
+            transform: translateY(-2px);
         }
         .stat-value { 
             font-size: 32px; 
-            font-weight: 300; 
+            font-weight: 600; 
             margin-bottom: 8px; 
             line-height: 1;
         }
         .stat-label { 
-            color: #a0a0a0; 
+            color: #94A3B8; 
             text-transform: none; 
             font-size: 14px; 
             font-weight: 400;
             letter-spacing: normal;
         }
-        .positive { color: #2ca02c; }
-        .negative { color: #d62728; }
-        .neutral { color: #ff7f0e; }
-        .primary { color: #1f77b4; }
+        .positive { color: #10B981; }
+        .negative { color: #EF4444; }
+        .neutral { color: #F59E0B; }
+        .primary { color: #3B82F6; }
         
         .chart-box { 
-            background: #1e1e1e; 
-            border-radius: 8px; 
+            background: #1A1F2E; 
+            border-radius: 12px; 
             padding: 25px; 
             margin-bottom: 20px;
-            border: 1px solid #333;
+            border: 1px solid #334155;
+            backdrop-filter: blur(10px);
         }
         .chart-box h3 {
-            color: #ffffff;
+            color: #F8FAFC;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 500;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #334155;
         }
         
         /* Ratings Tab */
         .source-rating-card { 
-            background: #1e1e1e; 
-            border-radius: 8px; 
+            background: #1A1F2E; 
+            border-radius: 12px; 
             padding: 25px; 
             margin-bottom: 25px;
-            border: 1px solid #333;
+            border: 1px solid #334155;
+            backdrop-filter: blur(10px);
         }
         .source-rating-card h3 { 
-            color: #ffffff; 
+            color: #F8FAFC; 
             margin-bottom: 20px; 
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 500;
         }
         .source-stats { 
             display: grid; 
@@ -149,56 +155,88 @@
         .source-stat { 
             text-align: center;
             padding: 15px;
-            background: rgba(255,255,255,0.02);
-            border-radius: 6px;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 8px;
+            border: 1px solid rgba(59, 130, 246, 0.1);
         }
         .rating-distribution h4 { 
             margin-bottom: 20px; 
-            color: #a0a0a0;
+            color: #94A3B8;
             font-size: 16px;
             font-weight: 400;
         }
         .rating-distribution { margin-top: 25px; }
         
         /* Reviews Tab */
-        .source-reviews { margin-bottom: 40px; }
+        .source-reviews { 
+            background: #1A1F2E; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin-bottom: 25px;
+            border: 1px solid #334155;
+            backdrop-filter: blur(10px);
+        }
         .source-reviews h3 { 
-            color: #ffffff; 
+            color: #F8FAFC; 
             margin-bottom: 20px; 
             font-size: 20px; 
-            font-weight: 400;
-            border-bottom: 1px solid #333; 
-            padding-bottom: 15px;
+            font-weight: 500;
         }
         .reviews-list { 
-            max-height: 800px; 
+            max-height: 600px; 
             overflow-y: auto; 
             padding-right: 10px;
+            position: relative;
+        }
+        .reviews-list::before {
+            content: '';
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(to bottom, #1A1F2E, transparent);
+            z-index: 10;
+            pointer-events: none;
+        }
+        .reviews-list::after {
+            content: '';
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(to top, #1A1F2E, transparent);
+            z-index: 10;
+            pointer-events: none;
         }
         .reviews-list::-webkit-scrollbar {
-            width: 6px;
+            width: 4px;
         }
         .reviews-list::-webkit-scrollbar-track {
-            background: #111111;
-            border-radius: 3px;
+            background: transparent;
+            border-radius: 2px;
         }
         .reviews-list::-webkit-scrollbar-thumb {
-            background: #555;
-            border-radius: 3px;
+            background: rgba(148, 163, 184, 0.3);
+            border-radius: 2px;
         }
         .reviews-list::-webkit-scrollbar-thumb:hover {
-            background: #777;
+            background: rgba(148, 163, 184, 0.5);
         }
         .review-item { 
-            background: #1e1e1e; 
-            border-radius: 6px; 
+            background: #1A1F2E; 
+            border-radius: 12px; 
             padding: 20px; 
             margin-bottom: 15px;
-            border: 1px solid #333;
-            transition: border-color 0.2s ease;
+            border: 1px solid #334155;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
         }
         .review-item:hover {
-            border-color: #555;
+            border-color: #3B82F6;
+            box-shadow: 0 4px 24px rgba(59, 130, 246, 0.08);
+            transform: translateY(-1px);
         }
         .review-header { 
             display: flex; 
@@ -210,15 +248,15 @@
         }
         .review-author { 
             font-weight: 600; 
-            color: #1f77b4; 
+            color: #3B82F6; 
             font-size: 14px;
         }
         .review-rating { 
-            color: #ff7f0e; 
+            color: #F59E0B; 
             font-size: 14px;
         }
         .review-date { 
-            color: #a0a0a0; 
+            color: #94A3B8; 
             font-size: 13px;
         }
         .sentiment-badge { 
@@ -227,11 +265,11 @@
             font-size: 12px; 
             font-weight: 500;
         }
-        .sentiment-badge.positive { background: rgba(44, 160, 44, 0.2); color: #2ca02c; border: 1px solid rgba(44, 160, 44, 0.3); }
-        .sentiment-badge.negative { background: rgba(214, 39, 40, 0.2); color: #d62728; border: 1px solid rgba(214, 39, 40, 0.3); }
-        .sentiment-badge.neutral { background: rgba(255, 127, 14, 0.2); color: #ff7f0e; border: 1px solid rgba(255, 127, 14, 0.3); }
+        .sentiment-badge.positive { background: rgba(16, 185, 129, 0.15); color: #10B981; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .sentiment-badge.negative { background: rgba(239, 68, 68, 0.15); color: #EF4444; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .sentiment-badge.neutral { background: rgba(245, 158, 11, 0.15); color: #F59E0B; border: 1px solid rgba(245, 158, 11, 0.3); }
         .review-text { 
-            color: #d0d0d0; 
+            color: #CBD5E1; 
             line-height: 1.6; 
             margin-top: 12px;
             font-size: 14px;
@@ -241,21 +279,37 @@
             position: fixed; 
             bottom: 30px; 
             right: 30px; 
-            background: #1f77b4; 
+            background: linear-gradient(135deg, #3B82F6, #6366F1); 
             color: white; 
             border: none; 
             padding: 12px 20px; 
-            border-radius: 6px; 
+            border-radius: 12px; 
             font-size: 14px; 
             font-weight: 500;
             cursor: pointer; 
-            box-shadow: 0 4px 12px rgba(31, 119, 180, 0.3);
-            transition: all 0.2s ease;
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.3);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
         }
         .refresh-btn:hover { 
-            background: #1861a0; 
-            transform: translateY(-1px); 
-            box-shadow: 0 6px 16px rgba(31, 119, 180, 0.4);
+            background: linear-gradient(135deg, #2563EB, #4F46E5); 
+            transform: translateY(-2px); 
+            box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+        }
+        
+        /* Sources Tab */
+        .source-item { 
+            background: #0B0E1A; 
+            border: 1px solid #475569; 
+            border-radius: 8px; 
+            padding: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .source-item:hover {
+            border-color: #3B82F6;
+            box-shadow: 0 8px 32px rgba(59, 130, 246, 0.12);
+            transform: translateY(-2px);
         }
         
         @media (max-width: 768px) {
@@ -265,18 +319,19 @@
             }
             .tab {
                 padding: 12px 20px;
-                border-bottom: 1px solid #333;
+                border-bottom: 1px solid #334155;
                 border-right: none;
             }
             .tab.active {
-                border-bottom-color: #1f77b4;
-                border-left: 3px solid #1f77b4;
+                border-bottom-color: #3B82F6;
+                border-left: 3px solid #3B82F6;
             }
             .stats-grid { grid-template-columns: 1fr; }
             .source-stats { grid-template-columns: 1fr; }
             .review-header { flex-direction: column; align-items: flex-start; }
             .tab-content { padding: 20px; }
         }
+        
     </style>
 </head>
 <body>
@@ -290,6 +345,10 @@
             <button class="tab active" onclick="showTab('overview')">Overview</button>
             <button class="tab" onclick="showTab('ratings')">Ratings</button>
             <button class="tab" onclick="showTab('reviews')">Reviews</button>
+            <button class="tab" onclick="showTab('analysis')">Analysis & Insights</button>
+            <button class="tab" onclick="showTab('query')">Query</button>
+            <button class="tab" onclick="showTab('zendesk')">Zendesk</button>
+            <button class="tab" onclick="showTab('sources')">Sources</button>
         </div>
         
         <!-- Overview Tab -->
@@ -314,7 +373,7 @@
             </div>
             
             <div class="chart-box">
-                <h3>Reviews by Platform</h3>
+                <h3>Platforms</h3>
                 <div id="sourceChart"></div>
             </div>
         </div>
@@ -5793,9 +5852,109 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
             </div>
             
         </div>
+        
+        <!-- Analysis & Insights Tab -->
+        <div id="analysis" class="tab-content">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value primary">Work in progress...</div>
+                    <div class="stat-label">thematic analysis</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value primary">Work in progress...</div>
+                    <div class="stat-label">Sentiment analysis</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value primary">Work in progress...</div>
+                    <div class="stat-label">topic modeling</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value primary">Work in progress...</div>
+                    <div class="stat-label">comp analysis</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Query Tab -->
+        <div id="query" class="tab-content">
+            <div style="padding: 40px 20px;">
+                <h2 style="color: #3B82F6; margin-bottom: 30px; text-align: center;">Work in progress...</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="background: #1A1F2E; border: 1px solid #334155; border-radius: 12px; padding: 30px; margin-bottom: 30px;">
+                        <h3 style="color: #F8FAFC; margin-bottom: 20px;">Natural langauge queries</h3>
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" placeholder="Ask questions about your reviews (e.g., 'What are users saying about the UI?')" 
+                                   style="width: 100%; padding: 15px; background: #0B0E1A; border: 1px solid #475569; border-radius: 8px; color: #F8FAFC; font-size: 14px;" disabled>
+                        </div>
+                        <button style="background: #3B82F6; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: not-allowed; opacity: 0.6;" disabled>
+                            Search Reviews
+                        </button>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 40px 20px; color: #94A3B8;">
+                        <p style="font-size: 16px; line-height: 1.6;">
+                            Tab for natural language queries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Zendesk Tab -->
+        <div id="zendesk" class="tab-content">
+            <div style="text-align: center; padding: 60px 20px; color: #94A3B8;">
+                <h2 style="color: #3B82F6; margin-bottom: 20px;">Work in progress...</h2>
+            </div>
+        </div>
+        
+        <!-- Sources Tab -->
+        <div id="sources" class="tab-content">
+            <div style="padding: 40px 20px;">
+                <h2 style="color: #3B82F6; margin-bottom: 30px; text-align: center;">Data Sources Management</h2>
+                <div style="max-width: 1000px; margin: 0 auto;">
+                    
+                    <!-- Current Sources -->
+                    <div style="background: #1A1F2E; border: 1px solid #334155; border-radius: 12px; padding: 30px; margin-bottom: 30px;">
+                        <h3 style="color: #F8FAFC; margin-bottom: 20px;">Active Data Sources</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                            <div class="source-item">
+                                <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                    <div style="width: 12px; height: 12px; background: #10B981; border-radius: 50%; margin-right: 10px;"></div>
+                                    <h4 style="color: #F8FAFC; margin: 0;">Google Play Store</h4>
+                                </div>
+                                <p style="color: #94A3B8; font-size: 14px; margin-bottom: 8px;">Status: Connected</p>
+                                <p style="color: #94A3B8; font-size: 14px;">Last sync: 2 hours ago</p>
+                            </div>
+                            <div class="source-item">
+                                <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                    <div style="width: 12px; height: 12px; background: #10B981; border-radius: 50%; margin-right: 10px;"></div>
+                                    <h4 style="color: #F8FAFC; margin: 0;">Apple App Store</h4>
+                                </div>
+                                <p style="color: #94A3B8; font-size: 14px; margin-bottom: 8px;">Status: Connected</p>
+                                <p style="color: #94A3B8; font-size: 14px;">Last sync: 1 hour ago</p>
+                            </div>
+                            <div class="source-item">
+                                <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                    <div style="width: 12px; height: 12px; background: #10B981; border-radius: 50%; margin-right: 10px;"></div>
+                                    <h4 style="color: #F8FAFC; margin: 0;">Trustpilot</h4>
+                                </div>
+                                <p style="color: #94A3B8; font-size: 14px; margin-bottom: 8px;">Status: Connected</p>
+                                <p style="color: #94A3B8; font-size: 14px;">Last sync: 30 minutes ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; padding: 40px 20px; color: #94A3B8;">
+                        <p style="font-size: 16px; line-height: 1.6;">
+                            Add explainer text...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
-    <button class="refresh-btn" onclick="location.reload()">Refresh</button>
+    <button class="refresh-btn" onclick="location.reload()">Go baaaaaaaaack</button>
     
     <script>
         // Tab functionality
@@ -5819,25 +5978,11 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
             event.target.classList.add('active');
         }
         
-        // Plotly theme configuration matching medical dashboard
-        var plotlyConfig = {
-            displayModeBar: false,
-            responsive: true
-        };
         
-        var plotlyLayout = {
-            paper_bgcolor: '#1e1e1e',
-            plot_bgcolor: '#1e1e1e',
-            font: { 
-                family: 'Source Sans Pro, sans-serif',
-                size: 12,
-                color: '#ffffff' 
-            },
-            showlegend: true,
-            height: 350,
-            margin: { t: 20, r: 20, b: 40, l: 40 },
-            grid: { color: '#333', width: 0.5 }
-        };
+        // Plotly theme configuration
+        var plotlyConfig = {"displayModeBar": false, "responsive": true};
+        
+        var plotlyLayout = {"paper_bgcolor": "#1A1F2E", "plot_bgcolor": "#1A1F2E", "font": {"family": "Source Sans Pro, sans-serif", "size": 12, "color": "#F8FAFC"}, "showlegend": true, "height": 350, "margin": {"t": 20, "r": 20, "b": 40, "l": 40}, "grid": {"color": "#334155", "width": 0.5}};
         
         // Source distribution chart
         var sourceData = [{
@@ -5846,11 +5991,11 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
             type: 'pie',
             hole: 0.3,
             marker: {
-                colors: ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b'],
-                line: { color: '#1e1e1e', width: 2 }
+                colors: ["#3B82F6", "#F59E0B", "#10B981"],
+                line: { color: '#1A1F2E', width: 2 }
             },
             textfont: { 
-                color: '#ffffff',
+                color: '#F8FAFC',
                 family: 'Source Sans Pro, sans-serif',
                 size: 12
             },
@@ -5863,7 +6008,7 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
             annotations: [{
                 text: 'Reviews<br>by Platform',
                 x: 0.5, y: 0.5,
-                font: { size: 16, color: '#a0a0a0' },
+                font: { size: 16, color: '#94A3B8' },
                 showarrow: false
             }]
         });
@@ -5885,30 +6030,30 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
                 y: rating_values,
                 type: 'bar',
                 marker: {
-                    color: '#1f77b4',
+                    color: '#3B82F6',
                     opacity: 0.8,
-                    line: { color: '#1f77b4', width: 1 }
+                    line: { color: '#3B82F6', width: 1 }
                 },
                 text: rating_values,
                 textposition: 'outside',
-                textfont: { color: '#ffffff', size: 11 },
+                textfont: { color: '#F8FAFC', size: 11 },
                 showlegend: false
             }];
             
             var ratingLayout = Object.assign({}, plotlyLayout, {
                 showlegend: false,
                 xaxis: { 
-                    title: { text: 'Rating Stars', font: { color: '#a0a0a0', size: 12 } },
-                    tickfont: { color: '#ffffff', size: 11 },
-                    gridcolor: '#333',
-                    linecolor: '#555',
+                    title: { text: 'Rating Stars', font: { color: '#94A3B8', size: 12 } },
+                    tickfont: { color: '#F8FAFC', size: 11 },
+                    gridcolor: '#334155',
+                    linecolor: '#64748B',
                     showgrid: true
                 },
                 yaxis: { 
-                    title: { text: 'Count', font: { color: '#a0a0a0', size: 12 } },
-                    tickfont: { color: '#ffffff', size: 11 },
-                    gridcolor: '#333',
-                    linecolor: '#555',
+                    title: { text: 'Count', font: { color: '#94A3B8', size: 12 } },
+                    tickfont: { color: '#F8FAFC', size: 11 },
+                    gridcolor: '#334155',
+                    linecolor: '#64748B',
                     showgrid: true
                 },
                 height: 280,
@@ -5917,6 +6062,7 @@ things for what your trying to achieve,it's cheaper and they give you 2 months t
             
             Plotly.newPlot('ratingChart' + chart_id, ratingData, ratingLayout, plotlyConfig);
         }
+        
     </script>
 </body>
 </html>
