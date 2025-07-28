@@ -49,8 +49,9 @@ ASPECT_KEYWORDS = {
     "Comfort": ["comfort", "fit", "wear", "ergonomic", "size", "adjustment"],
     "Results": ["result", "effective", "improvement", "helpful", "meditation", "focus"],
     "Value": ["price", "value", "expensive", "cheap", "worth", "money"],
-    "Support": ["support", "service", "help", "customer", "warranty", "response"],
-    "Delivery": ["shipping", "delivery", "package", "fast", "delayed"]
+    "Support": ["support", "service", "help", "customer", "warranty", "response", "ticket", "issue", "problem", "assistance"],
+    "Delivery": ["shipping", "delivery", "package", "fast", "delayed"],
+    "Technical": ["login", "sync", "account", "password", "error", "setup", "installation", "update"]
 }
 
 # Sentiment analysis thresholds
@@ -71,7 +72,8 @@ STOP_WORDS = {
 SOURCE_PATTERNS = {
     'Google Play': ['google', 'play'],
     'App Store': ['apple', 'app_store'],
-    'Trustpilot': ['trustpilot']
+    'Trustpilot': ['trustpilot'],
+    'Zendesk': ['zendesk']
 }
 
 # Chart configuration
